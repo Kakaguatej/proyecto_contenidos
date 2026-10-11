@@ -4,12 +4,18 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Configuración de Movimiento")]
     [SerializeField] private float moveSpeed = 6f;
-    [SerializeField] private bool isTopDown = false; // Desactivado para plataformas (se mantiene en false)
+    [SerializeField] private float jumpForce = 12f;
 
     private Rigidbody2D rb;
     private Animator animator;
-    private Vector2 moveInput;
+    private float moveInput;
     private bool facingRight = true;
+    private bool isGrounded;
+
+    [Header("Detección de Suelo")]
+    public Transform groundCheck;
+    public float groundRadius = 0.2f;
+    public LayerMask groundLayer;
 
     private void Awake()
     {
@@ -19,33 +25,35 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        // 1. Captura de entradas del teclado (A/D o Flechas)
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = isTopDown ? Input.GetAxisRaw("Vertical") : 0f;
-        moveInput = new Vector2(horizontal, vertical).normalized;
+        // Captura movimiento horizontal (A/D o Flechas)
+        moveInput = Input.GetAxisRaw("Horizontal");
 
-        // 2. Control de orientación visual (Flip del Sprite)
-        if (horizontal > 0 && !facingRight) Flip();
-        else if (horizontal < 0 && facingRight) Flip();
+        // Orientación visual (Flip del sprite)
+        if (moveInput > 0 && !facingRight) Flip();
+        else if (moveInput < 0 && facingRight) Flip();
 
-        // 3. Envío de datos de velocidad al Animator
-        float currentSpeed = moveInput.sqrMagnitude;
+        // Salto con barra espaciadora o flecha arriba solo si está en el suelo
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        }
+
+        // Envía la velocidad absoluta al Animator para controlar Idle y Run
         if (animator != null)
         {
-            animator.SetFloat("Speed", currentSpeed);
+            animator.SetFloat("Speed", Mathf.Abs(moveInput));
         }
     }
 
     private void FixedUpdate()
     {
-        // Movimiento por físicas en el ciclo FixedUpdate
-        if (isTopDown)
+        // Aplica el movimiento horizontal manteniendo la física vertical
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+
+        // Detección de suelo en 2D usando Physics2D.OverlapCircle
+        if (groundCheck != null)
         {
-            rb.linearVelocity = moveInput * moveSpeed;
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
         }
     }
 
