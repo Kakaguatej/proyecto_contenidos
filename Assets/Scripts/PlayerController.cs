@@ -39,10 +39,9 @@ public class PlayerController : MonoBehaviour
         }
 
         // Envía la velocidad absoluta al Animator para controlar Idle y Run
-        if (animator != null)
-        {
-            animator.SetFloat("Speed", Mathf.Abs(moveInput));
-        }
+        animator.SetFloat("Speed", Mathf.Abs(moveInput));
+        animator.SetFloat("VerticalSpeed", rb.linearVelocity.y);
+        animator.SetBool("IsGrounded", isGrounded);
     }
 
     private void FixedUpdate()
