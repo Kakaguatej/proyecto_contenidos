@@ -203,7 +203,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -1041,7 +1041,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3d6409bf6e12c904c9e6f46602412923, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1323,7 +1323,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3616580130621296495, guid: fac2553b55a2cbf499030be3bd77d84f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1405,6 +1405,7 @@ GameObject:
   - component: {fileID: 1176773480}
   - component: {fileID: 1176773479}
   - component: {fileID: 1176773482}
+  - component: {fileID: 1176773483}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1530,6 +1531,19 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1176773483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176773478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2891ec6eddab8e1439cbddf0370fc3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Camara
+  target: {fileID: 1010145672}
 --- !u!1 &1420438550
 GameObject:
   m_ObjectHideFlags: 0

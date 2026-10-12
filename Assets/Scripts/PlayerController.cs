@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
         else if (moveInput < 0 && facingRight) Flip();
 
         // Salto con barra espaciadora o flecha arriba solo si está en el suelo
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
