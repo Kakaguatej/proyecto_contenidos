@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 3216fb23ec6728044a9e1467a4caa1c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3479091749310189102
+    second: robot_tv_shoot_spritesheet_4K_0
+  - first:
+      213: 730532101740648743
+    second: robot_tv_shoot_spritesheet_4K_1
+  - first:
+      213: 6951265644878349571
+    second: robot_tv_shoot_spritesheet_4K_2
+  - first:
+      213: 6161017995162755223
+    second: robot_tv_shoot_spritesheet_4K_3
+  - first:
+      213: 788211999786195172
+    second: robot_tv_shoot_spritesheet_4K_4
+  - first:
+      213: 2444452992185387922
+    second: robot_tv_shoot_spritesheet_4K_5
+  - first:
+      213: 1994788929298315326
+    second: robot_tv_shoot_spritesheet_4K_6
+  - first:
+      213: 3093991778864980525
+    second: robot_tv_shoot_spritesheet_4K_7
+  - first:
+      213: -6077927788489239290
+    second: robot_tv_shoot_spritesheet_4K_8
+  - first:
+      213: 4164811819269218214
+    second: robot_tv_shoot_spritesheet_4K_9
+  - first:
+      213: -9041541724487109674
+    second: robot_tv_shoot_spritesheet_4K_10
+  - first:
+      213: -2098760737050788181
+    second: robot_tv_shoot_spritesheet_4K_11
+  - first:
+      213: -4245608649077170644
+    second: robot_tv_shoot_spritesheet_4K_12
+  - first:
+      213: -1884968371084086769
+    second: robot_tv_shoot_spritesheet_4K_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1029
+        width: 332
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e40a25387384030800000000000000
+      internalID: 3479091749310189102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_1
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1029
+        width: 402
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7295545731f532a00800000000000000
+      internalID: 730532101740648743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_2
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1029
+        width: 442
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305c95e464bd77060800000000000000
+      internalID: 6951265644878349571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_4
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 1029
+        width: 472
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d4fe33aa40fa00800000000000000
+      internalID: 788211999786195172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 69
+        width: 612
+        height: 672
+      alignment: 9
+      pivot: {x: 0.39955428, y: 0.506776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6059f9ce0ecd6aba0800000000000000
+      internalID: -6077927788489239290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_9
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 69
+        width: 522
+        height: 662
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afd3e398426cc930800000000000000
+      internalID: 4164811819269218214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_11
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 69
+        width: 432
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baefc87ba34bfd2e0800000000000000
+      internalID: -2098760737050788181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_shoot_spritesheet_4K_12
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 69
+        width: 402
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2edd688d619415c0800000000000000
+      internalID: -4245608649077170644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f1a5e9bb73e679945b6e6c4089f59776
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robot_tv_shoot_spritesheet_4K_0: 3479091749310189102
+      robot_tv_shoot_spritesheet_4K_1: 730532101740648743
+      robot_tv_shoot_spritesheet_4K_10: -9041541724487109674
+      robot_tv_shoot_spritesheet_4K_11: -2098760737050788181
+      robot_tv_shoot_spritesheet_4K_12: -4245608649077170644
+      robot_tv_shoot_spritesheet_4K_13: -1884968371084086769
+      robot_tv_shoot_spritesheet_4K_2: 6951265644878349571
+      robot_tv_shoot_spritesheet_4K_3: 6161017995162755223
+      robot_tv_shoot_spritesheet_4K_4: 788211999786195172
+      robot_tv_shoot_spritesheet_4K_5: 2444452992185387922
+      robot_tv_shoot_spritesheet_4K_6: 1994788929298315326
+      robot_tv_shoot_spritesheet_4K_7: 3093991778864980525
+      robot_tv_shoot_spritesheet_4K_8: -6077927788489239290
+      robot_tv_shoot_spritesheet_4K_9: 4164811819269218214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

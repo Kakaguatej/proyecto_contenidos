@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 2855d87250249bb43b6deb303017c7f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5264173047608275159
+    second: robot_enemy_spritesheet_4K (1)_0
+  - first:
+      213: -3269541022802337754
+    second: robot_enemy_spritesheet_4K (1)_1
+  - first:
+      213: -2614174904795600593
+    second: robot_enemy_spritesheet_4K (1)_2
+  - first:
+      213: 8015738256178655869
+    second: robot_enemy_spritesheet_4K (1)_3
+  - first:
+      213: -6301096307616570370
+    second: robot_enemy_spritesheet_4K (1)_4
+  - first:
+      213: -4280651981189538445
+    second: robot_enemy_spritesheet_4K (1)_5
+  - first:
+      213: 5725385563886753606
+    second: robot_enemy_spritesheet_4K (1)_6
+  - first:
+      213: -7544363011942841128
+    second: robot_enemy_spritesheet_4K (1)_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_0
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1029
+        width: 362
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d070eafe791e0940800000000000000
+      internalID: 5264173047608275159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1031
+        width: 332
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620ac4533c140a2d0800000000000000
+      internalID: -3269541022802337754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_2
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1029
+        width: 422
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29eaea46c598bbd0800000000000000
+      internalID: -2614174904795600593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_3
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1029
+        width: 372
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72b90c897f9d3f60800000000000000
+      internalID: 8015738256178655869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 69
+        width: 332
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef32df8fa420e88a0800000000000000
+      internalID: -6301096307616570370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 69
+        width: 392
+        height: 652
+      alignment: 9
+      pivot: {x: 0.656818, y: 0.503492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d1026f3b11894c0800000000000000
+      internalID: -4280651981189538445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_6
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 69
+        width: 542
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6479e9106d7a47f40800000000000000
+      internalID: 5725385563886753606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_enemy_spritesheet_4K (1)_7
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 69
+        width: 492
+        height: 652
+      alignment: 9
+      pivot: {x: 0.58792335, y: 0.50698394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d40d88ffc90d4790800000000000000
+      internalID: -7544363011942841128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 730f480a3d67f0e47b5cc26592a6403d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robot_enemy_spritesheet_4K (1)_0: 5264173047608275159
+      robot_enemy_spritesheet_4K (1)_1: -3269541022802337754
+      robot_enemy_spritesheet_4K (1)_2: -2614174904795600593
+      robot_enemy_spritesheet_4K (1)_3: 8015738256178655869
+      robot_enemy_spritesheet_4K (1)_4: -6301096307616570370
+      robot_enemy_spritesheet_4K (1)_5: -4280651981189538445
+      robot_enemy_spritesheet_4K (1)_6: 5725385563886753606
+      robot_enemy_spritesheet_4K (1)_7: -7544363011942841128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

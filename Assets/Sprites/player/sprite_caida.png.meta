@@ -1,0 +1,653 @@
+fileFormatVersion: 2
+guid: 3dd653c7be1370f40bb41f2210dec971
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5934076858313251100
+    second: sprite_caida_0
+  - first:
+      213: 8741574007991879328
+    second: sprite_caida_1
+  - first:
+      213: -9207342378485394496
+    second: sprite_caida_2
+  - first:
+      213: -3963720705650009181
+    second: sprite_caida_3
+  - first:
+      213: 7959194875270687467
+    second: sprite_caida_4
+  - first:
+      213: -1583611633298729518
+    second: sprite_caida_5
+  - first:
+      213: -7697298601154684714
+    second: sprite_caida_6
+  - first:
+      213: -3587081422377636651
+    second: sprite_caida_7
+  - first:
+      213: 2312383835577481898
+    second: sprite_caida_8
+  - first:
+      213: -420005669502747813
+    second: sprite_caida_9
+  - first:
+      213: 4359898331800790887
+    second: sprite_caida_10
+  - first:
+      213: -13841154698965258
+    second: sprite_caida_11
+  - first:
+      213: 6585146523590231430
+    second: sprite_caida_12
+  - first:
+      213: -3969533939636385342
+    second: sprite_caida_13
+  - first:
+      213: -4523871888489515826
+    second: sprite_caida_14
+  - first:
+      213: -1733963893660258527
+    second: sprite_caida_15
+  - first:
+      213: 3168812196868241945
+    second: sprite_caida_16
+  - first:
+      213: 4856678832491747868
+    second: sprite_caida_17
+  - first:
+      213: -8318523608310621136
+    second: sprite_caida_18
+  - first:
+      213: 5090973386141123523
+    second: sprite_caida_19
+  - first:
+      213: 7064051325063958228
+    second: sprite_caida_20
+  - first:
+      213: 4981176345269703122
+    second: sprite_caida_21
+  - first:
+      213: 597996946305425906
+    second: sprite_caida_22
+  - first:
+      213: 3868141923564950867
+    second: sprite_caida_23
+  - first:
+      213: -3816800560982941936
+    second: sprite_caida_24
+  - first:
+      213: -2482979919342417430
+    second: sprite_caida_25
+  - first:
+      213: -5987725079988372788
+    second: sprite_caida_26
+  - first:
+      213: 6499258271126421470
+    second: sprite_caida_27
+  - first:
+      213: 5979069337872394606
+    second: sprite_caida_28
+  - first:
+      213: -8708964360216212013
+    second: sprite_caida_29
+  - first:
+      213: -7301025525203205681
+    second: sprite_caida_30
+  - first:
+      213: 346820083221864526
+    second: sprite_caida_31
+  - first:
+      213: -884781173954360225
+    second: sprite_caida_32
+  - first:
+      213: 4937530224747000337
+    second: sprite_caida_33
+  - first:
+      213: 6516463472633588113
+    second: sprite_caida_34
+  - first:
+      213: 89018686051182700
+    second: sprite_caida_35
+  - first:
+      213: 798556028467841716
+    second: sprite_caida_36
+  - first:
+      213: -2556171509603927058
+    second: sprite_caida_37
+  - first:
+      213: 8319519143652004399
+    second: sprite_caida_38
+  - first:
+      213: 375110244699874560
+    second: sprite_caida_39
+  - first:
+      213: -8746794743006471589
+    second: sprite_caida_40
+  - first:
+      213: -2116168424907112879
+    second: sprite_caida_41
+  - first:
+      213: 861264056528868465
+    second: sprite_caida_42
+  - first:
+      213: -8063464196195516572
+    second: sprite_caida_43
+  - first:
+      213: -1983772132205146777
+    second: sprite_caida_44
+  - first:
+      213: 7317029123817746670
+    second: sprite_caida_45
+  - first:
+      213: -5421296494767040567
+    second: sprite_caida_46
+  - first:
+      213: 5344267047270907242
+    second: sprite_caida_47
+  - first:
+      213: -3796479396603118752
+    second: sprite_caida_48
+  - first:
+      213: -298429643415813200
+    second: sprite_caida_49
+  - first:
+      213: 2845869550383620227
+    second: sprite_caida_50
+  - first:
+      213: -529978368594811578
+    second: sprite_caida_51
+  - first:
+      213: 10862394851626074
+    second: sprite_caida_52
+  - first:
+      213: 7957212789679958981
+    second: sprite_caida_53
+  - first:
+      213: 4416504673146300222
+    second: sprite_caida_54
+  - first:
+      213: -1611913594801249604
+    second: sprite_caida_55
+  - first:
+      213: -2399526343886382498
+    second: sprite_caida_56
+  - first:
+      213: -7958609935689906964
+    second: sprite_caida_57
+  - first:
+      213: 5924012704652368869
+    second: sprite_caida_58
+  - first:
+      213: -8994434879533963819
+    second: sprite_caida_59
+  - first:
+      213: -4476086559901456647
+    second: sprite_caida_60
+  - first:
+      213: -740356949113520904
+    second: sprite_caida_61
+  - first:
+      213: -8355277947664425488
+    second: sprite_caida_62
+  - first:
+      213: 1307461978615063175
+    second: sprite_caida_63
+  - first:
+      213: 222669447297319283
+    second: sprite_caida_64
+  - first:
+      213: -6131358483306340697
+    second: sprite_caida_65
+  - first:
+      213: 3950848658220259828
+    second: sprite_caida_66
+  - first:
+      213: -1999473416728008273
+    second: sprite_caida_67
+  - first:
+      213: 7716910202817481234
+    second: sprite_caida_68
+  - first:
+      213: -8098808668925117758
+    second: sprite_caida_69
+  - first:
+      213: -8038566147569987373
+    second: sprite_caida_70
+  - first:
+      213: -1254353666842948627
+    second: sprite_caida_71
+  - first:
+      213: -4049700743361207698
+    second: sprite_caida_72
+  - first:
+      213: 4703995071167640077
+    second: sprite_caida_73
+  - first:
+      213: -6786928318921928369
+    second: sprite_caida_74
+  - first:
+      213: 5358956430181124912
+    second: sprite_caida_75
+  - first:
+      213: 7048796475204707349
+    second: sprite_caida_76
+  - first:
+      213: 1515697805176514468
+    second: sprite_caida_77
+  - first:
+      213: -6429732663711574260
+    second: sprite_caida_78
+  - first:
+      213: 8807599931661266400
+    second: sprite_caida_79
+  - first:
+      213: -1951097728491381506
+    second: sprite_caida_80
+  - first:
+      213: 447231827120554371
+    second: sprite_caida_81
+  - first:
+      213: 909645871568424682
+    second: sprite_caida_82
+  - first:
+      213: 4990615229519177579
+    second: sprite_caida_83
+  - first:
+      213: 9080182824993539584
+    second: sprite_caida_84
+  - first:
+      213: 1737456689800750651
+    second: sprite_caida_85
+  - first:
+      213: 7966122071035938843
+    second: sprite_caida_86
+  - first:
+      213: 8801655716944566704
+    second: sprite_caida_87
+  - first:
+      213: 787170389534111475
+    second: sprite_caida_88
+  - first:
+      213: -3427061384178892323
+    second: sprite_caida_89
+  - first:
+      213: 7847440774126407269
+    second: sprite_caida_90
+  - first:
+      213: 3423830022770931466
+    second: sprite_caida_91
+  - first:
+      213: 2782394223559603412
+    second: sprite_caida_92
+  - first:
+      213: 3665294259542537961
+    second: sprite_caida_93
+  - first:
+      213: 6512574369980469170
+    second: sprite_caida_94
+  - first:
+      213: -5680808091290168586
+    second: sprite_caida_95
+  - first:
+      213: -4979344147706419858
+    second: sprite_caida_96
+  - first:
+      213: -4100573777008802893
+    second: sprite_caida_97
+  - first:
+      213: 8226895138156038886
+    second: sprite_caida_98
+  - first:
+      213: 22972319820953588
+    second: sprite_caida_99
+  - first:
+      213: 3246057884116485985
+    second: sprite_caida_100
+  - first:
+      213: -8287198604137285896
+    second: sprite_caida_101
+  - first:
+      213: -8801940664956795467
+    second: sprite_caida_102
+  - first:
+      213: 5956572541021576552
+    second: sprite_caida_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_caida_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 514
+        height: 812
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1990a966731a5250800000000000000
+      internalID: 5934076858313251100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 243
+        width: 510
+        height: 813
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6c424de3f405970800000000000000
+      internalID: 8741574007991879328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 242
+        width: 512
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c35afca3e2f83080800000000000000
+      internalID: -9207342378485394496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 242
+        width: 512
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abded6d4090ef8c0800000000000000
+      internalID: -3963720705650009181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 242
+        width: 512
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea6e96c19db47e60800000000000000
+      internalID: 7959194875270687467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 242
+        width: 512
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d59d0f1c91e50ae0800000000000000
+      internalID: -1583611633298729518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 242
+        width: 512
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8501c44b3bd2590800000000000000
+      internalID: -7697298601154684714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 242
+        width: 512
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5293797, y: 0.5050983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc27c69370283ec0800000000000000
+      internalID: -3587081422377636651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_caida_8
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 242
+        width: 512
+        height: 814
+      alignment: 9
+      pivot: {x: 0.51880413, y: 0.47392145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa73ffc8dc371020800000000000000
+      internalID: 2312383835577481898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 71ffb15e3012aa14e99f5d9c78c312e8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":1056.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5293797254562378,"y":0.505098283290863},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      sprite_caida_0: 5934076858313251100
+      sprite_caida_1: 8741574007991879328
+      sprite_caida_2: -9207342378485394496
+      sprite_caida_3: -3963720705650009181
+      sprite_caida_4: 7959194875270687467
+      sprite_caida_5: -1583611633298729518
+      sprite_caida_6: -7697298601154684714
+      sprite_caida_7: -3587081422377636651
+      sprite_caida_8: 2312383835577481898
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

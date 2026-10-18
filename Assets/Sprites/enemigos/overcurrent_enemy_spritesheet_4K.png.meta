@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: bc24393a81f6c3b49b607bd922f71577
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6394294455491703412
+    second: overcurrent_enemy_spritesheet_4K_0
+  - first:
+      213: 8168845324450808264
+    second: overcurrent_enemy_spritesheet_4K_1
+  - first:
+      213: -7046853981470622927
+    second: overcurrent_enemy_spritesheet_4K_2
+  - first:
+      213: -5340658363336512346
+    second: overcurrent_enemy_spritesheet_4K_3
+  - first:
+      213: -2654637110749222821
+    second: overcurrent_enemy_spritesheet_4K_4
+  - first:
+      213: 6403666074724291451
+    second: overcurrent_enemy_spritesheet_4K_5
+  - first:
+      213: -8062980961565016291
+    second: overcurrent_enemy_spritesheet_4K_6
+  - first:
+      213: 6054830569124766058
+    second: overcurrent_enemy_spritesheet_4K_7
+  - first:
+      213: 1229925940763847176
+    second: overcurrent_enemy_spritesheet_4K_8
+  - first:
+      213: 3455537299751255171
+    second: overcurrent_enemy_spritesheet_4K_9
+  - first:
+      213: -6495468218025052003
+    second: overcurrent_enemy_spritesheet_4K_10
+  - first:
+      213: 8107773208315479231
+    second: overcurrent_enemy_spritesheet_4K_11
+  - first:
+      213: -1335403483001294734
+    second: overcurrent_enemy_spritesheet_4K_12
+  - first:
+      213: -1381082846537240648
+    second: overcurrent_enemy_spritesheet_4K_13
+  - first:
+      213: -8091353212863515935
+    second: overcurrent_enemy_spritesheet_4K_14
+  - first:
+      213: -403863753575367083
+    second: overcurrent_enemy_spritesheet_4K_15
+  - first:
+      213: -7333801652029122882
+    second: overcurrent_enemy_spritesheet_4K_16
+  - first:
+      213: -1111001344493140261
+    second: overcurrent_enemy_spritesheet_4K_17
+  - first:
+      213: 507021342274197119
+    second: overcurrent_enemy_spritesheet_4K_18
+  - first:
+      213: 1905699767147728837
+    second: overcurrent_enemy_spritesheet_4K_19
+  - first:
+      213: 7978258533822094303
+    second: overcurrent_enemy_spritesheet_4K_20
+  - first:
+      213: 7326572027109090164
+    second: overcurrent_enemy_spritesheet_4K_21
+  - first:
+      213: -6985413309927145425
+    second: overcurrent_enemy_spritesheet_4K_22
+  - first:
+      213: -2361955781224052146
+    second: overcurrent_enemy_spritesheet_4K_23
+  - first:
+      213: 3176003682324545332
+    second: overcurrent_enemy_spritesheet_4K_24
+  - first:
+      213: 7376973005910472531
+    second: overcurrent_enemy_spritesheet_4K_25
+  - first:
+      213: -678803778255797349
+    second: overcurrent_enemy_spritesheet_4K_26
+  - first:
+      213: -3911079912058496041
+    second: overcurrent_enemy_spritesheet_4K_27
+  - first:
+      213: 5324060460009487227
+    second: overcurrent_enemy_spritesheet_4K_28
+  - first:
+      213: 1495127909496542237
+    second: overcurrent_enemy_spritesheet_4K_29
+  - first:
+      213: -9015224349433961607
+    second: overcurrent_enemy_spritesheet_4K_30
+  - first:
+      213: -3493242740596283920
+    second: overcurrent_enemy_spritesheet_4K_31
+  - first:
+      213: -6773589573570209746
+    second: overcurrent_enemy_spritesheet_4K_32
+  - first:
+      213: 3895594271487317299
+    second: overcurrent_enemy_spritesheet_4K_33
+  - first:
+      213: 2412838229496134377
+    second: overcurrent_enemy_spritesheet_4K_34
+  - first:
+      213: -4698157614540385170
+    second: overcurrent_enemy_spritesheet_4K_35
+  - first:
+      213: 2917593878688348101
+    second: overcurrent_enemy_spritesheet_4K_36
+  - first:
+      213: 4527569756971282482
+    second: overcurrent_enemy_spritesheet_4K_37
+  - first:
+      213: -2119142883591441769
+    second: overcurrent_enemy_spritesheet_4K_38
+  - first:
+      213: -1186643355256712111
+    second: overcurrent_enemy_spritesheet_4K_39
+  - first:
+      213: 471576192777752354
+    second: overcurrent_enemy_spritesheet_4K_40
+  - first:
+      213: -4791141654968534375
+    second: overcurrent_enemy_spritesheet_4K_41
+  - first:
+      213: 1996016175295472962
+    second: overcurrent_enemy_spritesheet_4K_42
+  - first:
+      213: 8812749060200725165
+    second: overcurrent_enemy_spritesheet_4K_43
+  - first:
+      213: 7585970811051609301
+    second: overcurrent_enemy_spritesheet_4K_44
+  - first:
+      213: 5587909760602553229
+    second: overcurrent_enemy_spritesheet_4K_45
+  - first:
+      213: -2664476929823599813
+    second: overcurrent_enemy_spritesheet_4K_46
+  - first:
+      213: 7001314674232485042
+    second: overcurrent_enemy_spritesheet_4K_47
+  - first:
+      213: 8402292289720993684
+    second: overcurrent_enemy_spritesheet_4K_48
+  - first:
+      213: 5094827571751510972
+    second: overcurrent_enemy_spritesheet_4K_49
+  - first:
+      213: 8873915022214165328
+    second: overcurrent_enemy_spritesheet_4K_50
+  - first:
+      213: 1695494422006111443
+    second: overcurrent_enemy_spritesheet_4K_51
+  - first:
+      213: -2911376073291910853
+    second: overcurrent_enemy_spritesheet_4K_52
+  - first:
+      213: 6908450048895453333
+    second: overcurrent_enemy_spritesheet_4K_53
+  - first:
+      213: 7144400884220095459
+    second: overcurrent_enemy_spritesheet_4K_54
+  - first:
+      213: 5368702406302266963
+    second: overcurrent_enemy_spritesheet_4K_55
+  - first:
+      213: 2411878273490225564
+    second: overcurrent_enemy_spritesheet_4K_56
+  - first:
+      213: 66331113092384371
+    second: overcurrent_enemy_spritesheet_4K_57
+  - first:
+      213: -1587837133830599266
+    second: overcurrent_enemy_spritesheet_4K_58
+  - first:
+      213: 5568998863806109495
+    second: overcurrent_enemy_spritesheet_4K_59
+  - first:
+      213: -8221700183778918885
+    second: overcurrent_enemy_spritesheet_4K_60
+  - first:
+      213: 2015357463424697101
+    second: overcurrent_enemy_spritesheet_4K_61
+  - first:
+      213: -8555822353908825971
+    second: overcurrent_enemy_spritesheet_4K_62
+  - first:
+      213: 3167778540964774184
+    second: overcurrent_enemy_spritesheet_4K_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1029
+        width: 382
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f769bc7793d490700800000000000000
+      internalID: 507021342274197119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_26
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 1029
+        width: 372
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93ced46f876496f0800000000000000
+      internalID: -678803778255797349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_27
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1029
+        width: 372
+        height: 662
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db5691ba8d09b9c0800000000000000
+      internalID: -3911079912058496041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_28
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1029
+        width: 382
+        height: 632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b7191c7ccd2e940800000000000000
+      internalID: 5324060460009487227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_55
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 69
+        width: 382
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3567e68d466718a40800000000000000
+      internalID: 5368702406302266963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_56
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 69
+        width: 452
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c990ed4d286b87120800000000000000
+      internalID: 2411878273490225564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_61
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 69
+        width: 452
+        height: 662
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d038cd66fecf7fb10800000000000000
+      internalID: 2015357463424697101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_enemy_spritesheet_4K_62
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 69
+        width: 472
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d800be956ec934980800000000000000
+      internalID: -8555822353908825971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1e5ceffeab3c43542bbaa3ff82324242
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      overcurrent_enemy_spritesheet_4K_0: -6394294455491703412
+      overcurrent_enemy_spritesheet_4K_1: 8168845324450808264
+      overcurrent_enemy_spritesheet_4K_10: -6495468218025052003
+      overcurrent_enemy_spritesheet_4K_11: 8107773208315479231
+      overcurrent_enemy_spritesheet_4K_12: -1335403483001294734
+      overcurrent_enemy_spritesheet_4K_13: -1381082846537240648
+      overcurrent_enemy_spritesheet_4K_14: -8091353212863515935
+      overcurrent_enemy_spritesheet_4K_15: -403863753575367083
+      overcurrent_enemy_spritesheet_4K_16: -7333801652029122882
+      overcurrent_enemy_spritesheet_4K_17: -1111001344493140261
+      overcurrent_enemy_spritesheet_4K_18: 507021342274197119
+      overcurrent_enemy_spritesheet_4K_19: 1905699767147728837
+      overcurrent_enemy_spritesheet_4K_2: -7046853981470622927
+      overcurrent_enemy_spritesheet_4K_20: 7978258533822094303
+      overcurrent_enemy_spritesheet_4K_21: 7326572027109090164
+      overcurrent_enemy_spritesheet_4K_22: -6985413309927145425
+      overcurrent_enemy_spritesheet_4K_23: -2361955781224052146
+      overcurrent_enemy_spritesheet_4K_24: 3176003682324545332
+      overcurrent_enemy_spritesheet_4K_25: 7376973005910472531
+      overcurrent_enemy_spritesheet_4K_26: -678803778255797349
+      overcurrent_enemy_spritesheet_4K_27: -3911079912058496041
+      overcurrent_enemy_spritesheet_4K_28: 5324060460009487227
+      overcurrent_enemy_spritesheet_4K_29: 1495127909496542237
+      overcurrent_enemy_spritesheet_4K_3: -5340658363336512346
+      overcurrent_enemy_spritesheet_4K_30: -9015224349433961607
+      overcurrent_enemy_spritesheet_4K_31: -3493242740596283920
+      overcurrent_enemy_spritesheet_4K_32: -6773589573570209746
+      overcurrent_enemy_spritesheet_4K_33: 3895594271487317299
+      overcurrent_enemy_spritesheet_4K_34: 2412838229496134377
+      overcurrent_enemy_spritesheet_4K_35: -4698157614540385170
+      overcurrent_enemy_spritesheet_4K_36: 2917593878688348101
+      overcurrent_enemy_spritesheet_4K_37: 4527569756971282482
+      overcurrent_enemy_spritesheet_4K_38: -2119142883591441769
+      overcurrent_enemy_spritesheet_4K_39: -1186643355256712111
+      overcurrent_enemy_spritesheet_4K_4: -2654637110749222821
+      overcurrent_enemy_spritesheet_4K_40: 471576192777752354
+      overcurrent_enemy_spritesheet_4K_41: -4791141654968534375
+      overcurrent_enemy_spritesheet_4K_42: 1996016175295472962
+      overcurrent_enemy_spritesheet_4K_43: 8812749060200725165
+      overcurrent_enemy_spritesheet_4K_44: 7585970811051609301
+      overcurrent_enemy_spritesheet_4K_45: 5587909760602553229
+      overcurrent_enemy_spritesheet_4K_46: -2664476929823599813
+      overcurrent_enemy_spritesheet_4K_47: 7001314674232485042
+      overcurrent_enemy_spritesheet_4K_48: 8402292289720993684
+      overcurrent_enemy_spritesheet_4K_49: 5094827571751510972
+      overcurrent_enemy_spritesheet_4K_5: 6403666074724291451
+      overcurrent_enemy_spritesheet_4K_50: 8873915022214165328
+      overcurrent_enemy_spritesheet_4K_51: 1695494422006111443
+      overcurrent_enemy_spritesheet_4K_52: -2911376073291910853
+      overcurrent_enemy_spritesheet_4K_53: 6908450048895453333
+      overcurrent_enemy_spritesheet_4K_54: 7144400884220095459
+      overcurrent_enemy_spritesheet_4K_55: 5368702406302266963
+      overcurrent_enemy_spritesheet_4K_56: 2411878273490225564
+      overcurrent_enemy_spritesheet_4K_57: 66331113092384371
+      overcurrent_enemy_spritesheet_4K_58: -1587837133830599266
+      overcurrent_enemy_spritesheet_4K_59: 5568998863806109495
+      overcurrent_enemy_spritesheet_4K_6: -8062980961565016291
+      overcurrent_enemy_spritesheet_4K_60: -8221700183778918885
+      overcurrent_enemy_spritesheet_4K_61: 2015357463424697101
+      overcurrent_enemy_spritesheet_4K_62: -8555822353908825971
+      overcurrent_enemy_spritesheet_4K_63: 3167778540964774184
+      overcurrent_enemy_spritesheet_4K_7: 6054830569124766058
+      overcurrent_enemy_spritesheet_4K_8: 1229925940763847176
+      overcurrent_enemy_spritesheet_4K_9: 3455537299751255171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

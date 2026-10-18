@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 15897360f4984c24f8a1fbd75339c335
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 342859090448835990
+    second: overcurrent_projectile_spritesheet_4K_0
+  - first:
+      213: 2850629457285077262
+    second: overcurrent_projectile_spritesheet_4K_1
+  - first:
+      213: 7535401122104070837
+    second: overcurrent_projectile_spritesheet_4K_2
+  - first:
+      213: 240132299872466179
+    second: overcurrent_projectile_spritesheet_4K_3
+  - first:
+      213: -1749353959718568213
+    second: overcurrent_projectile_spritesheet_4K_4
+  - first:
+      213: 4522422505292977563
+    second: overcurrent_projectile_spritesheet_4K_5
+  - first:
+      213: -3985200151713680844
+    second: overcurrent_projectile_spritesheet_4K_6
+  - first:
+      213: 3824046444777224322
+    second: overcurrent_projectile_spritesheet_4K_7
+  - first:
+      213: -3751439548239501486
+    second: overcurrent_projectile_spritesheet_4K_8
+  - first:
+      213: 8447314596331995213
+    second: overcurrent_projectile_spritesheet_4K_9
+  - first:
+      213: 5549471810753357828
+    second: overcurrent_projectile_spritesheet_4K_10
+  - first:
+      213: -4941448876806868258
+    second: overcurrent_projectile_spritesheet_4K_11
+  - first:
+      213: 2140998491668357103
+    second: overcurrent_projectile_spritesheet_4K_12
+  - first:
+      213: 6388901937055589318
+    second: overcurrent_projectile_spritesheet_4K_13
+  - first:
+      213: -3713046615560653191
+    second: overcurrent_projectile_spritesheet_4K_14
+  - first:
+      213: 6011911216802276646
+    second: overcurrent_projectile_spritesheet_4K_15
+  - first:
+      213: 8470829893529821000
+    second: overcurrent_projectile_spritesheet_4K_16
+  - first:
+      213: -6424401715514603662
+    second: overcurrent_projectile_spritesheet_4K_17
+  - first:
+      213: -3040407785432504968
+    second: overcurrent_projectile_spritesheet_4K_18
+  - first:
+      213: -3065192974035078657
+    second: overcurrent_projectile_spritesheet_4K_19
+  - first:
+      213: 4153333974447560192
+    second: overcurrent_projectile_spritesheet_4K_20
+  - first:
+      213: 4965148092453363358
+    second: overcurrent_projectile_spritesheet_4K_21
+  - first:
+      213: -7164062456448975413
+    second: overcurrent_projectile_spritesheet_4K_22
+  - first:
+      213: 6891913304257534276
+    second: overcurrent_projectile_spritesheet_4K_23
+  - first:
+      213: 951476931160835432
+    second: overcurrent_projectile_spritesheet_4K_24
+  - first:
+      213: -7490186850541911803
+    second: overcurrent_projectile_spritesheet_4K_25
+  - first:
+      213: -1757290798798917784
+    second: overcurrent_projectile_spritesheet_4K_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1259
+        width: 752
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09ddbb53687f8720800000000000000
+      internalID: 2850629457285077262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_3
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1259
+        width: 782
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305fef0fd0f155300800000000000000
+      internalID: 240132299872466179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_6
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 1259
+        width: 722
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432f5469399b1b8c0800000000000000
+      internalID: -3985200151713680844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_8
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 1259
+        width: 782
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25725da5b9530fbc0800000000000000
+      internalID: -3751439548239501486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 299
+        width: 752
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277875c7da0f7d6a0800000000000000
+      internalID: -6424401715514603662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_23
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 329
+        width: 722
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4491f03a2aef4af50800000000000000
+      internalID: 6891913304257534276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_24
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 329
+        width: 752
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86502dd4a33543d00800000000000000
+      internalID: 951476931160835432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_projectile_spritesheet_4K_25
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 329
+        width: 752
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501c5208eb28d0890800000000000000
+      internalID: -7490186850541911803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e98fa25bdd456f2468d3bf6def6464a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      overcurrent_projectile_spritesheet_4K_0: 342859090448835990
+      overcurrent_projectile_spritesheet_4K_1: 2850629457285077262
+      overcurrent_projectile_spritesheet_4K_10: 5549471810753357828
+      overcurrent_projectile_spritesheet_4K_11: -4941448876806868258
+      overcurrent_projectile_spritesheet_4K_12: 2140998491668357103
+      overcurrent_projectile_spritesheet_4K_13: 6388901937055589318
+      overcurrent_projectile_spritesheet_4K_14: -3713046615560653191
+      overcurrent_projectile_spritesheet_4K_15: 6011911216802276646
+      overcurrent_projectile_spritesheet_4K_16: 8470829893529821000
+      overcurrent_projectile_spritesheet_4K_17: -6424401715514603662
+      overcurrent_projectile_spritesheet_4K_18: -3040407785432504968
+      overcurrent_projectile_spritesheet_4K_19: -3065192974035078657
+      overcurrent_projectile_spritesheet_4K_2: 7535401122104070837
+      overcurrent_projectile_spritesheet_4K_20: 4153333974447560192
+      overcurrent_projectile_spritesheet_4K_21: 4965148092453363358
+      overcurrent_projectile_spritesheet_4K_22: -7164062456448975413
+      overcurrent_projectile_spritesheet_4K_23: 6891913304257534276
+      overcurrent_projectile_spritesheet_4K_24: 951476931160835432
+      overcurrent_projectile_spritesheet_4K_25: -7490186850541911803
+      overcurrent_projectile_spritesheet_4K_26: -1757290798798917784
+      overcurrent_projectile_spritesheet_4K_3: 240132299872466179
+      overcurrent_projectile_spritesheet_4K_4: -1749353959718568213
+      overcurrent_projectile_spritesheet_4K_5: 4522422505292977563
+      overcurrent_projectile_spritesheet_4K_6: -3985200151713680844
+      overcurrent_projectile_spritesheet_4K_7: 3824046444777224322
+      overcurrent_projectile_spritesheet_4K_8: -3751439548239501486
+      overcurrent_projectile_spritesheet_4K_9: 8447314596331995213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

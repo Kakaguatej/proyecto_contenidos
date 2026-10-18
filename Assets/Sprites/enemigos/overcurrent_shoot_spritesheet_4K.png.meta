@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: a42491445d1e87848a5c9d2698b7a4b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6003553752209877441
+    second: overcurrent_shoot_spritesheet_4K_0
+  - first:
+      213: 7865513464133794222
+    second: overcurrent_shoot_spritesheet_4K_1
+  - first:
+      213: -18422601804458498
+    second: overcurrent_shoot_spritesheet_4K_2
+  - first:
+      213: -4465056734346567396
+    second: overcurrent_shoot_spritesheet_4K_3
+  - first:
+      213: -2312303340459988131
+    second: overcurrent_shoot_spritesheet_4K_4
+  - first:
+      213: 890198624659330216
+    second: overcurrent_shoot_spritesheet_4K_5
+  - first:
+      213: 4957835133497184541
+    second: overcurrent_shoot_spritesheet_4K_6
+  - first:
+      213: 4782681326305330291
+    second: overcurrent_shoot_spritesheet_4K_7
+  - first:
+      213: 8293779344648206418
+    second: overcurrent_shoot_spritesheet_4K_8
+  - first:
+      213: 1781031754108567826
+    second: overcurrent_shoot_spritesheet_4K_9
+  - first:
+      213: 9217132542535069107
+    second: overcurrent_shoot_spritesheet_4K_10
+  - first:
+      213: -852236154376569246
+    second: overcurrent_shoot_spritesheet_4K_11
+  - first:
+      213: -4788072510813067038
+    second: overcurrent_shoot_spritesheet_4K_12
+  - first:
+      213: -6440211819016115586
+    second: overcurrent_shoot_spritesheet_4K_13
+  - first:
+      213: -4180629694129664169
+    second: overcurrent_shoot_spritesheet_4K_14
+  - first:
+      213: -1537060020703417432
+    second: overcurrent_shoot_spritesheet_4K_15
+  - first:
+      213: 4323344194909371868
+    second: overcurrent_shoot_spritesheet_4K_16
+  - first:
+      213: -5478615140887703860
+    second: overcurrent_shoot_spritesheet_4K_17
+  - first:
+      213: -7204183900475126995
+    second: overcurrent_shoot_spritesheet_4K_18
+  - first:
+      213: 4858297972560932702
+    second: overcurrent_shoot_spritesheet_4K_19
+  - first:
+      213: -4915714591896965044
+    second: overcurrent_shoot_spritesheet_4K_20
+  - first:
+      213: -3680041245517975180
+    second: overcurrent_shoot_spritesheet_4K_21
+  - first:
+      213: -8732035418346015390
+    second: overcurrent_shoot_spritesheet_4K_22
+  - first:
+      213: 574681242228970491
+    second: overcurrent_shoot_spritesheet_4K_23
+  - first:
+      213: 6715633378232180629
+    second: overcurrent_shoot_spritesheet_4K_24
+  - first:
+      213: 6232328137466810181
+    second: overcurrent_shoot_spritesheet_4K_25
+  - first:
+      213: -4842485181087481601
+    second: overcurrent_shoot_spritesheet_4K_26
+  - first:
+      213: -8058497062350702728
+    second: overcurrent_shoot_spritesheet_4K_27
+  - first:
+      213: 677396073682280510
+    second: overcurrent_shoot_spritesheet_4K_28
+  - first:
+      213: -4021169490981803549
+    second: overcurrent_shoot_spritesheet_4K_29
+  - first:
+      213: 3071284536242907694
+    second: overcurrent_shoot_spritesheet_4K_30
+  - first:
+      213: -5787765248873038756
+    second: overcurrent_shoot_spritesheet_4K_31
+  - first:
+      213: -7681702313922280217
+    second: overcurrent_shoot_spritesheet_4K_32
+  - first:
+      213: -6843039742016172815
+    second: overcurrent_shoot_spritesheet_4K_33
+  - first:
+      213: 7909747029620443727
+    second: overcurrent_shoot_spritesheet_4K_34
+  - first:
+      213: 3130956155216273443
+    second: overcurrent_shoot_spritesheet_4K_35
+  - first:
+      213: 8122462874927916147
+    second: overcurrent_shoot_spritesheet_4K_36
+  - first:
+      213: 5206218487317904806
+    second: overcurrent_shoot_spritesheet_4K_37
+  - first:
+      213: 1605123707551129196
+    second: overcurrent_shoot_spritesheet_4K_38
+  - first:
+      213: 5618498332273315896
+    second: overcurrent_shoot_spritesheet_4K_39
+  - first:
+      213: 1374832726254282185
+    second: overcurrent_shoot_spritesheet_4K_40
+  - first:
+      213: -1016566512134921019
+    second: overcurrent_shoot_spritesheet_4K_41
+  - first:
+      213: -6774509347563933721
+    second: overcurrent_shoot_spritesheet_4K_42
+  - first:
+      213: -5191973596516698705
+    second: overcurrent_shoot_spritesheet_4K_43
+  - first:
+      213: -378697453174929921
+    second: overcurrent_shoot_spritesheet_4K_44
+  - first:
+      213: -1474286175230858124
+    second: overcurrent_shoot_spritesheet_4K_45
+  - first:
+      213: 3235496913763507062
+    second: overcurrent_shoot_spritesheet_4K_46
+  - first:
+      213: -5368589789368251841
+    second: overcurrent_shoot_spritesheet_4K_47
+  - first:
+      213: -2051611233344405936
+    second: overcurrent_shoot_spritesheet_4K_48
+  - first:
+      213: 2766430499329951546
+    second: overcurrent_shoot_spritesheet_4K_49
+  - first:
+      213: -5567529938263413750
+    second: overcurrent_shoot_spritesheet_4K_50
+  - first:
+      213: 2939040374667497789
+    second: overcurrent_shoot_spritesheet_4K_51
+  - first:
+      213: -7925681611535163129
+    second: overcurrent_shoot_spritesheet_4K_52
+  - first:
+      213: 585835827653493884
+    second: overcurrent_shoot_spritesheet_4K_53
+  - first:
+      213: -3185720654066802427
+    second: overcurrent_shoot_spritesheet_4K_54
+  - first:
+      213: 7586643644524190325
+    second: overcurrent_shoot_spritesheet_4K_55
+  - first:
+      213: -6139503699520943294
+    second: overcurrent_shoot_spritesheet_4K_56
+  - first:
+      213: 1358329307142095388
+    second: overcurrent_shoot_spritesheet_4K_57
+  - first:
+      213: 6820390267728197862
+    second: overcurrent_shoot_spritesheet_4K_58
+  - first:
+      213: -4153465954703781705
+    second: overcurrent_shoot_spritesheet_4K_59
+  - first:
+      213: -7716002152353493071
+    second: overcurrent_shoot_spritesheet_4K_60
+  - first:
+      213: 4124430517229447845
+    second: overcurrent_shoot_spritesheet_4K_61
+  - first:
+      213: -3884873118997794937
+    second: overcurrent_shoot_spritesheet_4K_62
+  - first:
+      213: 4438475830298572960
+    second: overcurrent_shoot_spritesheet_4K_63
+  - first:
+      213: 6723669114086185093
+    second: overcurrent_shoot_spritesheet_4K_64
+  - first:
+      213: -1673204951784593507
+    second: overcurrent_shoot_spritesheet_4K_65
+  - first:
+      213: -2394856322984472956
+    second: overcurrent_shoot_spritesheet_4K_66
+  - first:
+      213: -8508570924543457341
+    second: overcurrent_shoot_spritesheet_4K_67
+  - first:
+      213: -3582675047511147316
+    second: overcurrent_shoot_spritesheet_4K_68
+  - first:
+      213: -4259508197390329737
+    second: overcurrent_shoot_spritesheet_4K_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_25
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 1029
+        width: 582
+        height: 712
+      alignment: 9
+      pivot: {x: 0.4174146, y: 0.48934096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f8165bb6dad7650800000000000000
+      internalID: 6232328137466810181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1029
+        width: 452
+        height: 702
+      alignment: 9
+      pivot: {x: 0.5391775, y: 0.5036037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0003762690cccb0800000000000000
+      internalID: -4842485181087481601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_28
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1029
+        width: 522
+        height: 682
+      alignment: 9
+      pivot: {x: 0.4709227, y: 0.51854664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30a318d328966900800000000000000
+      internalID: 677396073682280510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_29
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1029
+        width: 562
+        height: 682
+      alignment: 9
+      pivot: {x: 0.44148314, y: 0.51854664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9246c27afe138c0800000000000000
+      internalID: -4021169490981803549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_63
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 72
+        width: 722
+        height: 682
+      alignment: 9
+      pivot: {x: 0.32831374, y: 0.50370926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a87a196042a89d30800000000000000
+      internalID: 4438475830298572960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_64
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 69
+        width: 652
+        height: 682
+      alignment: 9
+      pivot: {x: 0.37196097, y: 0.48887217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5885f5c8f654f4d50800000000000000
+      internalID: 6723669114086185093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_66
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 69
+        width: 542
+        height: 682
+      alignment: 9
+      pivot: {x: 0.44865885, y: 0.511128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e896cdcd2c3ced0800000000000000
+      internalID: -2394856322984472956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overcurrent_shoot_spritesheet_4K_67
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 69
+        width: 522
+        height: 682
+      alignment: 9
+      pivot: {x: 0.46123028, y: 0.5185466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7ce5013db7be980800000000000000
+      internalID: -8508570924543457341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df74f7de0abdb8c42acaee08aa1ff374
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      overcurrent_shoot_spritesheet_4K_0: 6003553752209877441
+      overcurrent_shoot_spritesheet_4K_1: 7865513464133794222
+      overcurrent_shoot_spritesheet_4K_10: 9217132542535069107
+      overcurrent_shoot_spritesheet_4K_11: -852236154376569246
+      overcurrent_shoot_spritesheet_4K_12: -4788072510813067038
+      overcurrent_shoot_spritesheet_4K_13: -6440211819016115586
+      overcurrent_shoot_spritesheet_4K_14: -4180629694129664169
+      overcurrent_shoot_spritesheet_4K_15: -1537060020703417432
+      overcurrent_shoot_spritesheet_4K_16: 4323344194909371868
+      overcurrent_shoot_spritesheet_4K_17: -5478615140887703860
+      overcurrent_shoot_spritesheet_4K_18: -7204183900475126995
+      overcurrent_shoot_spritesheet_4K_19: 4858297972560932702
+      overcurrent_shoot_spritesheet_4K_2: -18422601804458498
+      overcurrent_shoot_spritesheet_4K_20: -4915714591896965044
+      overcurrent_shoot_spritesheet_4K_21: -3680041245517975180
+      overcurrent_shoot_spritesheet_4K_22: -8732035418346015390
+      overcurrent_shoot_spritesheet_4K_23: 574681242228970491
+      overcurrent_shoot_spritesheet_4K_24: 6715633378232180629
+      overcurrent_shoot_spritesheet_4K_25: 6232328137466810181
+      overcurrent_shoot_spritesheet_4K_26: -4842485181087481601
+      overcurrent_shoot_spritesheet_4K_27: -8058497062350702728
+      overcurrent_shoot_spritesheet_4K_28: 677396073682280510
+      overcurrent_shoot_spritesheet_4K_29: -4021169490981803549
+      overcurrent_shoot_spritesheet_4K_3: -4465056734346567396
+      overcurrent_shoot_spritesheet_4K_30: 3071284536242907694
+      overcurrent_shoot_spritesheet_4K_31: -5787765248873038756
+      overcurrent_shoot_spritesheet_4K_32: -7681702313922280217
+      overcurrent_shoot_spritesheet_4K_33: -6843039742016172815
+      overcurrent_shoot_spritesheet_4K_34: 7909747029620443727
+      overcurrent_shoot_spritesheet_4K_35: 3130956155216273443
+      overcurrent_shoot_spritesheet_4K_36: 8122462874927916147
+      overcurrent_shoot_spritesheet_4K_37: 5206218487317904806
+      overcurrent_shoot_spritesheet_4K_38: 1605123707551129196
+      overcurrent_shoot_spritesheet_4K_39: 5618498332273315896
+      overcurrent_shoot_spritesheet_4K_4: -2312303340459988131
+      overcurrent_shoot_spritesheet_4K_40: 1374832726254282185
+      overcurrent_shoot_spritesheet_4K_41: -1016566512134921019
+      overcurrent_shoot_spritesheet_4K_42: -6774509347563933721
+      overcurrent_shoot_spritesheet_4K_43: -5191973596516698705
+      overcurrent_shoot_spritesheet_4K_44: -378697453174929921
+      overcurrent_shoot_spritesheet_4K_45: -1474286175230858124
+      overcurrent_shoot_spritesheet_4K_46: 3235496913763507062
+      overcurrent_shoot_spritesheet_4K_47: -5368589789368251841
+      overcurrent_shoot_spritesheet_4K_48: -2051611233344405936
+      overcurrent_shoot_spritesheet_4K_49: 2766430499329951546
+      overcurrent_shoot_spritesheet_4K_5: 890198624659330216
+      overcurrent_shoot_spritesheet_4K_50: -5567529938263413750
+      overcurrent_shoot_spritesheet_4K_51: 2939040374667497789
+      overcurrent_shoot_spritesheet_4K_52: -7925681611535163129
+      overcurrent_shoot_spritesheet_4K_53: 585835827653493884
+      overcurrent_shoot_spritesheet_4K_54: -3185720654066802427
+      overcurrent_shoot_spritesheet_4K_55: 7586643644524190325
+      overcurrent_shoot_spritesheet_4K_56: -6139503699520943294
+      overcurrent_shoot_spritesheet_4K_57: 1358329307142095388
+      overcurrent_shoot_spritesheet_4K_58: 6820390267728197862
+      overcurrent_shoot_spritesheet_4K_59: -4153465954703781705
+      overcurrent_shoot_spritesheet_4K_6: 4957835133497184541
+      overcurrent_shoot_spritesheet_4K_60: -7716002152353493071
+      overcurrent_shoot_spritesheet_4K_61: 4124430517229447845
+      overcurrent_shoot_spritesheet_4K_62: -3884873118997794937
+      overcurrent_shoot_spritesheet_4K_63: 4438475830298572960
+      overcurrent_shoot_spritesheet_4K_64: 6723669114086185093
+      overcurrent_shoot_spritesheet_4K_65: -1673204951784593507
+      overcurrent_shoot_spritesheet_4K_66: -2394856322984472956
+      overcurrent_shoot_spritesheet_4K_67: -8508570924543457341
+      overcurrent_shoot_spritesheet_4K_68: -3582675047511147316
+      overcurrent_shoot_spritesheet_4K_69: -4259508197390329737
+      overcurrent_shoot_spritesheet_4K_7: 4782681326305330291
+      overcurrent_shoot_spritesheet_4K_8: 8293779344648206418
+      overcurrent_shoot_spritesheet_4K_9: 1781031754108567826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

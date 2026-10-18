@@ -2,10 +2,25 @@ using UnityEngine;
 
 public class Camara : MonoBehaviour
 {
-    public Transform target; 
+    public Transform target;     // Tu jugador (El Bit)
+    public float minX;           // Límite izquierdo donde la cámara se detiene
+    public bool usarMaxX = false;
+    public float maxX;           // Opcional: Límite derecho del nivel
 
     private void LateUpdate()
     {
-        transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
+        if (target == null) return;
+
+        // La cámara sigue al jugador en X, pero NUNCA bajará del valor minX
+        float nuevaX = Mathf.Max(target.position.x, minX);
+
+        // Si en el futuro quieres un límite final en la meta, se aplica aquí
+        if (usarMaxX)
+        {
+            nuevaX = Mathf.Clamp(nuevaX, minX, maxX);
+        }
+
+        // Aplica la posición manteniendo tu Y y Z originales
+        transform.position = new Vector3(nuevaX, transform.position.y, transform.position.z);
     }
 }

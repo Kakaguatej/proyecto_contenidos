@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 79d232ab0b016e940b1e9d1c9966791d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6824590323725219781
+    second: robot_tv_projectile_spritesheet_4K_0
+  - first:
+      213: 1775098674157817875
+    second: robot_tv_projectile_spritesheet_4K_1
+  - first:
+      213: 993209731067888045
+    second: robot_tv_projectile_spritesheet_4K_2
+  - first:
+      213: 7260368976902190285
+    second: robot_tv_projectile_spritesheet_4K_3
+  - first:
+      213: -7618818576568290398
+    second: robot_tv_projectile_spritesheet_4K_4
+  - first:
+      213: -8741647785490177569
+    second: robot_tv_projectile_spritesheet_4K_5
+  - first:
+      213: 2562426511933039736
+    second: robot_tv_projectile_spritesheet_4K_6
+  - first:
+      213: -4471956856572003997
+    second: robot_tv_projectile_spritesheet_4K_7
+  - first:
+      213: -518767003688295099
+    second: robot_tv_projectile_spritesheet_4K_8
+  - first:
+      213: 8465924361922918018
+    second: robot_tv_projectile_spritesheet_4K_9
+  - first:
+      213: -5779240763713365010
+    second: robot_tv_projectile_spritesheet_4K_10
+  - first:
+      213: 4392060543283485339
+    second: robot_tv_projectile_spritesheet_4K_11
+  - first:
+      213: -7495133647637205183
+    second: robot_tv_projectile_spritesheet_4K_12
+  - first:
+      213: -8115304783774667901
+    second: robot_tv_projectile_spritesheet_4K_13
+  - first:
+      213: 1628517211571916732
+    second: robot_tv_projectile_spritesheet_4K_14
+  - first:
+      213: -2968996709039989855
+    second: robot_tv_projectile_spritesheet_4K_15
+  - first:
+      213: 8756864093950546466
+    second: robot_tv_projectile_spritesheet_4K_16
+  - first:
+      213: 476378711634982392
+    second: robot_tv_projectile_spritesheet_4K_17
+  - first:
+      213: 2508431536642014546
+    second: robot_tv_projectile_spritesheet_4K_18
+  - first:
+      213: -4967112940106790803
+    second: robot_tv_projectile_spritesheet_4K_19
+  - first:
+      213: 5050968105285697313
+    second: robot_tv_projectile_spritesheet_4K_20
+  - first:
+      213: 1112638118306506351
+    second: robot_tv_projectile_spritesheet_4K_21
+  - first:
+      213: 5050610377131496200
+    second: robot_tv_projectile_spritesheet_4K_22
+  - first:
+      213: 5308499036080478166
+    second: robot_tv_projectile_spritesheet_4K_23
+  - first:
+      213: -338171119553414685
+    second: robot_tv_projectile_spritesheet_4K_24
+  - first:
+      213: 3248097737531113614
+    second: robot_tv_projectile_spritesheet_4K_25
+  - first:
+      213: -3219966870608075055
+    second: robot_tv_projectile_spritesheet_4K_26
+  - first:
+      213: 8483385623319479156
+    second: robot_tv_projectile_spritesheet_4K_27
+  - first:
+      213: 8708203932883291855
+    second: robot_tv_projectile_spritesheet_4K_28
+  - first:
+      213: -8391742359494103185
+    second: robot_tv_projectile_spritesheet_4K_29
+  - first:
+      213: 4074542779349457858
+    second: robot_tv_projectile_spritesheet_4K_30
+  - first:
+      213: -3107496731456672437
+    second: robot_tv_projectile_spritesheet_4K_31
+  - first:
+      213: 2966498272926964639
+    second: robot_tv_projectile_spritesheet_4K_32
+  - first:
+      213: 6886838798971113222
+    second: robot_tv_projectile_spritesheet_4K_33
+  - first:
+      213: -6209778780769102978
+    second: robot_tv_projectile_spritesheet_4K_34
+  - first:
+      213: -1595237085873233305
+    second: robot_tv_projectile_spritesheet_4K_35
+  - first:
+      213: 2891774822078617471
+    second: robot_tv_projectile_spritesheet_4K_36
+  - first:
+      213: -4327126260010670932
+    second: robot_tv_projectile_spritesheet_4K_37
+  - first:
+      213: -4360294622842837953
+    second: robot_tv_projectile_spritesheet_4K_38
+  - first:
+      213: 1310061510395291491
+    second: robot_tv_projectile_spritesheet_4K_39
+  - first:
+      213: -8550760064943127178
+    second: robot_tv_projectile_spritesheet_4K_40
+  - first:
+      213: -2969327290752329289
+    second: robot_tv_projectile_spritesheet_4K_41
+  - first:
+      213: 6982111371024206883
+    second: robot_tv_projectile_spritesheet_4K_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_1
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1291
+        width: 632
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310917ad6da62a810800000000000000
+      internalID: 1775098674157817875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_4
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1289
+        width: 602
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3ff7feed4844690800000000000000
+      internalID: -7618818576568290398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_6
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1289
+        width: 572
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874efc616519f8320800000000000000
+      internalID: 2562426511933039736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1319
+        width: 572
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54527ff9828fcc8f0800000000000000
+      internalID: -518767003688295099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 359
+        width: 572
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4730d9a074a0bb570800000000000000
+      internalID: 8483385623319479156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_28
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 359
+        width: 542
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce0b23c651c9d870800000000000000
+      internalID: 8708203932883291855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_31
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 359
+        width: 542
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d66dcdf24ffd4d0800000000000000
+      internalID: -3107496731456672437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_tv_projectile_spritesheet_4K_33
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 359
+        width: 632
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f0d0e4667f29f50800000000000000
+      internalID: 6886838798971113222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 16d8ab3755f9bf549ae852ae3d1d9713
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robot_tv_projectile_spritesheet_4K_0: 6824590323725219781
+      robot_tv_projectile_spritesheet_4K_1: 1775098674157817875
+      robot_tv_projectile_spritesheet_4K_10: -5779240763713365010
+      robot_tv_projectile_spritesheet_4K_11: 4392060543283485339
+      robot_tv_projectile_spritesheet_4K_12: -7495133647637205183
+      robot_tv_projectile_spritesheet_4K_13: -8115304783774667901
+      robot_tv_projectile_spritesheet_4K_14: 1628517211571916732
+      robot_tv_projectile_spritesheet_4K_15: -2968996709039989855
+      robot_tv_projectile_spritesheet_4K_16: 8756864093950546466
+      robot_tv_projectile_spritesheet_4K_17: 476378711634982392
+      robot_tv_projectile_spritesheet_4K_18: 2508431536642014546
+      robot_tv_projectile_spritesheet_4K_19: -4967112940106790803
+      robot_tv_projectile_spritesheet_4K_2: 993209731067888045
+      robot_tv_projectile_spritesheet_4K_20: 5050968105285697313
+      robot_tv_projectile_spritesheet_4K_21: 1112638118306506351
+      robot_tv_projectile_spritesheet_4K_22: 5050610377131496200
+      robot_tv_projectile_spritesheet_4K_23: 5308499036080478166
+      robot_tv_projectile_spritesheet_4K_24: -338171119553414685
+      robot_tv_projectile_spritesheet_4K_25: 3248097737531113614
+      robot_tv_projectile_spritesheet_4K_26: -3219966870608075055
+      robot_tv_projectile_spritesheet_4K_27: 8483385623319479156
+      robot_tv_projectile_spritesheet_4K_28: 8708203932883291855
+      robot_tv_projectile_spritesheet_4K_29: -8391742359494103185
+      robot_tv_projectile_spritesheet_4K_3: 7260368976902190285
+      robot_tv_projectile_spritesheet_4K_30: 4074542779349457858
+      robot_tv_projectile_spritesheet_4K_31: -3107496731456672437
+      robot_tv_projectile_spritesheet_4K_32: 2966498272926964639
+      robot_tv_projectile_spritesheet_4K_33: 6886838798971113222
+      robot_tv_projectile_spritesheet_4K_34: -6209778780769102978
+      robot_tv_projectile_spritesheet_4K_35: -1595237085873233305
+      robot_tv_projectile_spritesheet_4K_36: 2891774822078617471
+      robot_tv_projectile_spritesheet_4K_37: -4327126260010670932
+      robot_tv_projectile_spritesheet_4K_38: -4360294622842837953
+      robot_tv_projectile_spritesheet_4K_39: 1310061510395291491
+      robot_tv_projectile_spritesheet_4K_4: -7618818576568290398
+      robot_tv_projectile_spritesheet_4K_40: -8550760064943127178
+      robot_tv_projectile_spritesheet_4K_41: -2969327290752329289
+      robot_tv_projectile_spritesheet_4K_42: 6982111371024206883
+      robot_tv_projectile_spritesheet_4K_5: -8741647785490177569
+      robot_tv_projectile_spritesheet_4K_6: 2562426511933039736
+      robot_tv_projectile_spritesheet_4K_7: -4471956856572003997
+      robot_tv_projectile_spritesheet_4K_8: -518767003688295099
+      robot_tv_projectile_spritesheet_4K_9: 8465924361922918018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
