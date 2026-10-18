@@ -355,28 +355,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shield_states_sheet_x10_0
-      rect:
-        serializedVersion: 2
-        x: 1919
-        y: 1909
-        width: 22
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 696f8aba19f64b770800000000000000
-      internalID: 8625641857762260630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_1
       rect:
         serializedVersion: 2
@@ -385,7 +363,7 @@ TextureImporter:
         width: 412
         height: 622
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,358 +377,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_2
-      rect:
-        serializedVersion: 2
-        x: 2179
-        y: 1909
-        width: 62
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ca5712f018e9a920800000000000000
-      internalID: 3002185786097883844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_3
-      rect:
-        serializedVersion: 2
-        x: 2559
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a68fa6add831db30800000000000000
-      internalID: 4310288843005724320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_4
-      rect:
-        serializedVersion: 2
-        x: 2579
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1789fb3b6b0f0df20800000000000000
-      internalID: 3445518382428821617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_5
-      rect:
-        serializedVersion: 2
-        x: 2599
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c91206501087e490800000000000000
-      internalID: -7717058628825245246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_6
-      rect:
-        serializedVersion: 2
-        x: 2619
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57ef415bae82d2630800000000000000
-      internalID: 3903821440525598325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_7
-      rect:
-        serializedVersion: 2
-        x: 2639
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6379266195e4aa70800000000000000
-      internalID: 8837440781454766958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_8
-      rect:
-        serializedVersion: 2
-        x: 2659
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b113ac985d686af20800000000000000
-      internalID: 3433580017614467355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_9
-      rect:
-        serializedVersion: 2
-        x: 2679
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9eee5ee74dc026520800000000000000
-      internalID: 2693729633922576105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_10
-      rect:
-        serializedVersion: 2
-        x: 2699
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c7d5875d8aaa7dd0800000000000000
-      internalID: -2487488320133277759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_11
-      rect:
-        serializedVersion: 2
-        x: 2719
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89edd4382f3cbe030800000000000000
-      internalID: 3525126579699965592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_12
-      rect:
-        serializedVersion: 2
-        x: 2739
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35e0563e1e0b27f60800000000000000
-      internalID: 8030675569784196691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_13
-      rect:
-        serializedVersion: 2
-        x: 2759
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e6b829259b2e07e0800000000000000
-      internalID: -1797451281633593632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_14
-      rect:
-        serializedVersion: 2
-        x: 2779
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3170331bae71f33e0800000000000000
-      internalID: -2071911006804441325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_15
-      rect:
-        serializedVersion: 2
-        x: 2799
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea568c26f265c0e70800000000000000
-      internalID: 9082729310020199854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_16
-      rect:
-        serializedVersion: 2
-        x: 2819
-        y: 1909
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3054571a9c7fb2830800000000000000
-      internalID: 4047601135491826947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_17
-      rect:
-        serializedVersion: 2
-        x: 2849
-        y: 1899
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fddb1dc7a1807fe50800000000000000
-      internalID: 6842947068669050335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_18
       rect:
         serializedVersion: 2
@@ -759,7 +385,7 @@ TextureImporter:
         width: 482
         height: 562
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -773,28 +399,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_19
-      rect:
-        serializedVersion: 2
-        x: 2329
-        y: 1749
-        width: 112
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e42fc74d5c69ec50800000000000000
-      internalID: 6695001468955469030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_20
       rect:
         serializedVersion: 2
@@ -803,7 +407,7 @@ TextureImporter:
         width: 372
         height: 602
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -817,28 +421,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_21
-      rect:
-        serializedVersion: 2
-        x: 2999
-        y: 1809
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ff0e8ee88febab60800000000000000
-      internalID: 7758558154472689652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_22
       rect:
         serializedVersion: 2
@@ -847,7 +429,7 @@ TextureImporter:
         width: 362
         height: 582
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -861,50 +443,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_23
-      rect:
-        serializedVersion: 2
-        x: 3039
-        y: 1769
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84cd10d493843bcc0800000000000000
-      internalID: -3696531458198741944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_24
-      rect:
-        serializedVersion: 2
-        x: 3079
-        y: 1749
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9e2b8b84791b0aa0800000000000000
-      internalID: -6193828874169930085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_25
       rect:
         serializedVersion: 2
@@ -913,7 +451,7 @@ TextureImporter:
         width: 202
         height: 262
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -927,138 +465,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_26
-      rect:
-        serializedVersion: 2
-        x: 2439
-        y: 1709
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f40b1567da0cfd0c0800000000000000
-      internalID: -4548705247373971377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_27
-      rect:
-        serializedVersion: 2
-        x: 3079
-        y: 1729
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08bc3f1e7301b9fd0800000000000000
-      internalID: -2334254149661373568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_28
-      rect:
-        serializedVersion: 2
-        x: 3099
-        y: 1709
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4c4908b22a2c0e5f0800000000000000
-      internalID: -729369137863682876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_29
-      rect:
-        serializedVersion: 2
-        x: 2459
-        y: 1649
-        width: 22
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0777ead93468d66c0800000000000000
-      internalID: -4148512056771971216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_30
-      rect:
-        serializedVersion: 2
-        x: 3119
-        y: 1669
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dd4580076c37de40800000000000000
-      internalID: 5681075868039204311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_31
-      rect:
-        serializedVersion: 2
-        x: 3119
-        y: 1649
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9be09888d1c4c2c90800000000000000
-      internalID: -7193290815089078599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_32
       rect:
         serializedVersion: 2
@@ -1067,7 +473,7 @@ TextureImporter:
         width: 102
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1081,446 +487,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_33
-      rect:
-        serializedVersion: 2
-        x: 2479
-        y: 1629
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2c79de3d593fd380800000000000000
-      internalID: -8944367262285333460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_34
-      rect:
-        serializedVersion: 2
-        x: 3119
-        y: 1629
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ee63916d28bfb180800000000000000
-      internalID: -9097350217215021340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_35
-      rect:
-        serializedVersion: 2
-        x: 2479
-        y: 1609
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fec52293e2bf75990800000000000000
-      internalID: -7397167686987129617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_36
-      rect:
-        serializedVersion: 2
-        x: 3119
-        y: 1609
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fb1f366218a6feb0800000000000000
-      internalID: -4686373565254132751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_37
-      rect:
-        serializedVersion: 2
-        x: 2479
-        y: 1589
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b351f43fa9015190800000000000000
-      internalID: -7975582816984280140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_38
-      rect:
-        serializedVersion: 2
-        x: 2479
-        y: 1569
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a70ed6b21b567460800000000000000
-      internalID: 7239073586980194214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_39
-      rect:
-        serializedVersion: 2
-        x: 3119
-        y: 1569
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e07e680e129e41e0800000000000000
-      internalID: -2211669709304205080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_40
-      rect:
-        serializedVersion: 2
-        x: 2459
-        y: 1509
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73da4355f61d04ea0800000000000000
-      internalID: -5890478036499518153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_41
-      rect:
-        serializedVersion: 2
-        x: 3119
-        y: 1549
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10eade9f8d34432d0800000000000000
-      internalID: -3299938027770630655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_42
-      rect:
-        serializedVersion: 2
-        x: 3119
-        y: 1529
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfd3d1bb9ca53aa70800000000000000
-      internalID: 8837006716305227259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_43
-      rect:
-        serializedVersion: 2
-        x: 2429
-        y: 1429
-        width: 42
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fafa9535688b2a20800000000000000
-      internalID: 3038672341863955190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_44
-      rect:
-        serializedVersion: 2
-        x: 3099
-        y: 1489
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d773aaed769c1d460800000000000000
-      internalID: 7264809121879832445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_45
-      rect:
-        serializedVersion: 2
-        x: 3079
-        y: 1449
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e17592dfb40c9b60800000000000000
-      internalID: 7754077880343425506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_46
-      rect:
-        serializedVersion: 2
-        x: 2409
-        y: 1399
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e352d0db426cb1ae0800000000000000
-      internalID: -1577449383370349250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_47
-      rect:
-        serializedVersion: 2
-        x: 3039
-        y: 1389
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb73a816a48cf6740800000000000000
-      internalID: 5147553120897349563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_48
-      rect:
-        serializedVersion: 2
-        x: 2209
-        y: 1279
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 522f68edb0b14f240800000000000000
-      internalID: 4824510838612619813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_49
-      rect:
-        serializedVersion: 2
-        x: 2229
-        y: 1279
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 083f0aecff054c960800000000000000
-      internalID: 7621305529031259008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_50
-      rect:
-        serializedVersion: 2
-        x: 2559
-        y: 1289
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84dbf8f214cf6ef00800000000000000
-      internalID: 1145880512113392968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_51
-      rect:
-        serializedVersion: 2
-        x: 2839
-        y: 1289
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4dfb3d4bd0c178380800000000000000
-      internalID: -8969169287691124780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_52
-      rect:
-        serializedVersion: 2
-        x: 2859
-        y: 1289
-        width: 22
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1445f779b80a54de0800000000000000
-      internalID: -1349495991924992959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_53
       rect:
         serializedVersion: 2
@@ -1529,7 +495,7 @@ TextureImporter:
         width: 362
         height: 582
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1551,7 +517,7 @@ TextureImporter:
         width: 362
         height: 592
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1573,7 +539,7 @@ TextureImporter:
         width: 412
         height: 582
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1595,7 +561,7 @@ TextureImporter:
         width: 382
         height: 582
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1609,28 +575,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_57
-      rect:
-        serializedVersion: 2
-        x: 2389
-        y: 1019
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8c95e0750fbdcc70800000000000000
-      internalID: 8993054061018586250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_58
       rect:
         serializedVersion: 2
@@ -1639,7 +583,7 @@ TextureImporter:
         width: 362
         height: 582
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1661,7 +605,7 @@ TextureImporter:
         width: 362
         height: 582
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1675,28 +619,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_states_sheet_x10_60
-      rect:
-        serializedVersion: 2
-        x: 949
-        y: 649
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 096e3ed6b9f527ff0800000000000000
-      internalID: -39864325524691312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield_states_sheet_x10_61
       rect:
         serializedVersion: 2
@@ -1705,7 +627,7 @@ TextureImporter:
         width: 342
         height: 562
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1727,7 +649,7 @@ TextureImporter:
         width: 262
         height: 402
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1740,407 +662,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_63
-      rect:
-        serializedVersion: 2
-        x: 1399
-        y: 349
-        width: 102
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f0cc3245520c41d0800000000000000
-      internalID: -3365312256345849614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_64
-      rect:
-        serializedVersion: 2
-        x: 1509
-        y: 439
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3dd5e98fb8821f2a0800000000000000
-      internalID: -6705533788541264429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_65
-      rect:
-        serializedVersion: 2
-        x: 1549
-        y: 419
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 825ff05c20a4ec4f0800000000000000
-      internalID: -806625907496192728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_66
-      rect:
-        serializedVersion: 2
-        x: 1499
-        y: 389
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad9f3aed91ad520a0800000000000000
-      internalID: -6906874648858461734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_67
-      rect:
-        serializedVersion: 2
-        x: 1369
-        y: 259
-        width: 82
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5d1f80b61ec2cb50800000000000000
-      internalID: 6612073799780080987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_68
-      rect:
-        serializedVersion: 2
-        x: 1399
-        y: 199
-        width: 152
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: affac615a469020f0800000000000000
-      internalID: -1143749059414282246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_69
-      rect:
-        serializedVersion: 2
-        x: 2059
-        y: 329
-        width: 32
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6da824923d074bd0800000000000000
-      internalID: -2646131745171657364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_70
-      rect:
-        serializedVersion: 2
-        x: 2099
-        y: 339
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7015f6d270b9be520800000000000000
-      internalID: 2732448054059684103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_71
-      rect:
-        serializedVersion: 2
-        x: 2049
-        y: 279
-        width: 22
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9bdb588b78aadb460800000000000000
-      internalID: 7259145674284187065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_72
-      rect:
-        serializedVersion: 2
-        x: 2079
-        y: 309
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d93d780fcf4fb48e0800000000000000
-      internalID: -1708002266452601955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_73
-      rect:
-        serializedVersion: 2
-        x: 2149
-        y: 319
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26c4e9e9307bd99e0800000000000000
-      internalID: -1612931865354810270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_74
-      rect:
-        serializedVersion: 2
-        x: 2179
-        y: 309
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6e5ffc381d5a9190800000000000000
-      internalID: -7954943433112592790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_75
-      rect:
-        serializedVersion: 2
-        x: 1609
-        y: 299
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f65a5a5c6fc72c0c0800000000000000
-      internalID: -4556942473625754257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_76
-      rect:
-        serializedVersion: 2
-        x: 1689
-        y: 299
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2cd1dfb876542710800000000000000
-      internalID: 1667552838648192047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_77
-      rect:
-        serializedVersion: 2
-        x: 2129
-        y: 299
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3576c9581e364a40800000000000000
-      internalID: 5352033481482728766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_78
-      rect:
-        serializedVersion: 2
-        x: 2069
-        y: 269
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 789908812478376c0800000000000000
-      internalID: -4146822113929422457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_79
-      rect:
-        serializedVersion: 2
-        x: 1539
-        y: 159
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9d3af8c924bfcaf0800000000000000
-      internalID: -373882152489960037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield_states_sheet_x10_80
-      rect:
-        serializedVersion: 2
-        x: 2109
-        y: 179
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c0d953f682eb1de0800000000000000
-      internalID: -1361245393113198398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f0423fa02e7c5f4c90d23830a26c5cc
     internalID: 0
     vertices: []
     indices: 

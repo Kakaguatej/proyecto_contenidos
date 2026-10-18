@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Layer
   - Floor
+  - Shield
+  - EnemyProjectile
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - Floor
   - Water
   - UI
-  - 
+  - Shield
   - 
   - 
   - 

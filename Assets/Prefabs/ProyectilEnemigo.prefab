@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -6126169965271846558}
   m_Layer: 0
   m_Name: ProyectilEnemigo
-  m_TagString: Untagged
+  m_TagString: EnemyProyectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,6 +157,8 @@ MonoBehaviour:
   velocidad: 7
   tiempoDeVida: 3
   tagPared: Floor
+  tagEscudo: Shield
+  esCritico: 0
 --- !u!95 &8204214491435850591
 Animator:
   serializedVersion: 7
