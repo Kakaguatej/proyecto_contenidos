@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 820cf4d00366f5f4da07eaea420bb8d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7724321089994943037
+    second: ui_icons_sheet_x10_0
+  - first:
+      213: -8574284240510927933
+    second: ui_icons_sheet_x10_1
+  - first:
+      213: -4292450730427923747
+    second: ui_icons_sheet_x10_2
+  - first:
+      213: -19180261947532689
+    second: ui_icons_sheet_x10_3
+  - first:
+      213: -8677133202042622788
+    second: ui_icons_sheet_x10_4
+  - first:
+      213: 8428786186897291027
+    second: ui_icons_sheet_x10_5
+  - first:
+      213: -3457231760844847964
+    second: ui_icons_sheet_x10_6
+  - first:
+      213: -5128909340475710060
+    second: ui_icons_sheet_x10_7
+  - first:
+      213: 4214533627272036288
+    second: ui_icons_sheet_x10_8
+  - first:
+      213: -4670675589082272906
+    second: ui_icons_sheet_x10_9
+  - first:
+      213: 6745768152140685450
+    second: ui_icons_sheet_x10_10
+  - first:
+      213: -5504640783639564888
+    second: ui_icons_sheet_x10_11
+  - first:
+      213: -5555856773393695705
+    second: ui_icons_sheet_x10_12
+  - first:
+      213: 1396015574712312837
+    second: ui_icons_sheet_x10_13
+  - first:
+      213: 370705409294794376
+    second: ui_icons_sheet_x10_14
+  - first:
+      213: -4047505953734456381
+    second: ui_icons_sheet_x10_15
+  - first:
+      213: -2949763396598120561
+    second: ui_icons_sheet_x10_16
+  - first:
+      213: -490571443499413351
+    second: ui_icons_sheet_x10_17
+  - first:
+      213: -9017068962242955900
+    second: ui_icons_sheet_x10_18
+  - first:
+      213: -6980717994265666764
+    second: ui_icons_sheet_x10_19
+  - first:
+      213: -281241496576985750
+    second: ui_icons_sheet_x10_20
+  - first:
+      213: 4042387428135043050
+    second: ui_icons_sheet_x10_21
+  - first:
+      213: 2953888893467285328
+    second: ui_icons_sheet_x10_22
+  - first:
+      213: -7009168589097308106
+    second: ui_icons_sheet_x10_23
+  - first:
+      213: -6838383063740411082
+    second: ui_icons_sheet_x10_24
+  - first:
+      213: -8535101291530159309
+    second: ui_icons_sheet_x10_25
+  - first:
+      213: 5027866497626523854
+    second: ui_icons_sheet_x10_26
+  - first:
+      213: -5415414272630561948
+    second: ui_icons_sheet_x10_27
+  - first:
+      213: -1129614504583192265
+    second: ui_icons_sheet_x10_28
+  - first:
+      213: -9122962599623538985
+    second: ui_icons_sheet_x10_29
+  - first:
+      213: 5382794674814441162
+    second: ui_icons_sheet_x10_30
+  - first:
+      213: 5163238611997292288
+    second: ui_icons_sheet_x10_31
+  - first:
+      213: 4204251475796931088
+    second: ui_icons_sheet_x10_32
+  - first:
+      213: 1017598280357497381
+    second: ui_icons_sheet_x10_33
+  - first:
+      213: 7562712109451157805
+    second: ui_icons_sheet_x10_34
+  - first:
+      213: -3876481301926826452
+    second: ui_icons_sheet_x10_35
+  - first:
+      213: -3486829525641159704
+    second: ui_icons_sheet_x10_36
+  - first:
+      213: 510346196954666398
+    second: ui_icons_sheet_x10_37
+  - first:
+      213: 1863737745235555232
+    second: ui_icons_sheet_x10_38
+  - first:
+      213: -7319837649771358395
+    second: ui_icons_sheet_x10_39
+  - first:
+      213: 8675309285288666909
+    second: ui_icons_sheet_x10_40
+  - first:
+      213: 1324557236336962348
+    second: ui_icons_sheet_x10_41
+  - first:
+      213: -3636561146504688447
+    second: ui_icons_sheet_x10_42
+  - first:
+      213: -8925089790516861206
+    second: ui_icons_sheet_x10_43
+  - first:
+      213: 2133524769914566742
+    second: ui_icons_sheet_x10_44
+  - first:
+      213: 3018710508888475255
+    second: ui_icons_sheet_x10_45
+  - first:
+      213: 2263030010500310411
+    second: ui_icons_sheet_x10_46
+  - first:
+      213: -3293197810511987827
+    second: ui_icons_sheet_x10_47
+  - first:
+      213: 7117653349301178949
+    second: ui_icons_sheet_x10_48
+  - first:
+      213: 1044484770679402452
+    second: ui_icons_sheet_x10_49
+  - first:
+      213: -6988936690564984761
+    second: ui_icons_sheet_x10_50
+  - first:
+      213: -166077508021113280
+    second: ui_icons_sheet_x10_51
+  - first:
+      213: -743440620451408883
+    second: ui_icons_sheet_x10_52
+  - first:
+      213: 3082763674476756983
+    second: ui_icons_sheet_x10_53
+  - first:
+      213: 1012068700747357318
+    second: ui_icons_sheet_x10_54
+  - first:
+      213: 7548275447837861880
+    second: ui_icons_sheet_x10_55
+  - first:
+      213: 7658362852273241104
+    second: ui_icons_sheet_x10_56
+  - first:
+      213: -3440768821499220855
+    second: ui_icons_sheet_x10_57
+  - first:
+      213: 5238974675989079092
+    second: ui_icons_sheet_x10_58
+  - first:
+      213: -7164747654333255254
+    second: ui_icons_sheet_x10_59
+  - first:
+      213: -6129729872966130188
+    second: ui_icons_sheet_x10_60
+  - first:
+      213: 3583792556135512876
+    second: ui_icons_sheet_x10_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 979
+        width: 311
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ae43c2b1d423b60800000000000000
+      internalID: 7724321089994943037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 979
+        width: 312
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbbd1969e5020980800000000000000
+      internalID: -8574284240510927933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_2
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 979
+        width: 312
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd24af49dc62e64c0800000000000000
+      internalID: -4292450730427923747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 979
+        width: 312
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a1be347abdbbff0800000000000000
+      internalID: -19180261947532689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 679
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fb15eb1d55017d0800000000000000
+      internalID: -2949763396598120561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_18
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 679
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485fe46ad8fecd280800000000000000
+      internalID: -9017068962242955900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_20
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 679
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65fd645954d81cf0800000000000000
+      internalID: -281241496576985750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_22
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 679
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057d6195c425ef820800000000000000
+      internalID: 2953888893467285328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 359
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658314e697dcb9d10800000000000000
+      internalID: 2133524769914566742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_46
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 359
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b856be3fdc5e76f10800000000000000
+      internalID: 2263030010500310411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_48
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 359
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542577f920cf6c260800000000000000
+      internalID: 7117653349301178949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_50
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 359
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7401e21eb1f420f90800000000000000
+      internalID: -6988936690564984761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 311
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5e0c04823deeaa0800000000000000
+      internalID: -6129729872966130188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_icons_sheet_x10_61
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 19
+        width: 312
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b752197503cb130800000000000000
+      internalID: 3583792556135512876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7955a0da6971fff4e82018db669e4783
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ui_icons_sheet_x10_0: 7724321089994943037
+      ui_icons_sheet_x10_1: -8574284240510927933
+      ui_icons_sheet_x10_10: 6745768152140685450
+      ui_icons_sheet_x10_11: -5504640783639564888
+      ui_icons_sheet_x10_12: -5555856773393695705
+      ui_icons_sheet_x10_13: 1396015574712312837
+      ui_icons_sheet_x10_14: 370705409294794376
+      ui_icons_sheet_x10_15: -4047505953734456381
+      ui_icons_sheet_x10_16: -2949763396598120561
+      ui_icons_sheet_x10_17: -490571443499413351
+      ui_icons_sheet_x10_18: -9017068962242955900
+      ui_icons_sheet_x10_19: -6980717994265666764
+      ui_icons_sheet_x10_2: -4292450730427923747
+      ui_icons_sheet_x10_20: -281241496576985750
+      ui_icons_sheet_x10_21: 4042387428135043050
+      ui_icons_sheet_x10_22: 2953888893467285328
+      ui_icons_sheet_x10_23: -7009168589097308106
+      ui_icons_sheet_x10_24: -6838383063740411082
+      ui_icons_sheet_x10_25: -8535101291530159309
+      ui_icons_sheet_x10_26: 5027866497626523854
+      ui_icons_sheet_x10_27: -5415414272630561948
+      ui_icons_sheet_x10_28: -1129614504583192265
+      ui_icons_sheet_x10_29: -9122962599623538985
+      ui_icons_sheet_x10_3: -19180261947532689
+      ui_icons_sheet_x10_30: 5382794674814441162
+      ui_icons_sheet_x10_31: 5163238611997292288
+      ui_icons_sheet_x10_32: 4204251475796931088
+      ui_icons_sheet_x10_33: 1017598280357497381
+      ui_icons_sheet_x10_34: 7562712109451157805
+      ui_icons_sheet_x10_35: -3876481301926826452
+      ui_icons_sheet_x10_36: -3486829525641159704
+      ui_icons_sheet_x10_37: 510346196954666398
+      ui_icons_sheet_x10_38: 1863737745235555232
+      ui_icons_sheet_x10_39: -7319837649771358395
+      ui_icons_sheet_x10_4: -8677133202042622788
+      ui_icons_sheet_x10_40: 8675309285288666909
+      ui_icons_sheet_x10_41: 1324557236336962348
+      ui_icons_sheet_x10_42: -3636561146504688447
+      ui_icons_sheet_x10_43: -8925089790516861206
+      ui_icons_sheet_x10_44: 2133524769914566742
+      ui_icons_sheet_x10_45: 3018710508888475255
+      ui_icons_sheet_x10_46: 2263030010500310411
+      ui_icons_sheet_x10_47: -3293197810511987827
+      ui_icons_sheet_x10_48: 7117653349301178949
+      ui_icons_sheet_x10_49: 1044484770679402452
+      ui_icons_sheet_x10_5: 8428786186897291027
+      ui_icons_sheet_x10_50: -6988936690564984761
+      ui_icons_sheet_x10_51: -166077508021113280
+      ui_icons_sheet_x10_52: -743440620451408883
+      ui_icons_sheet_x10_53: 3082763674476756983
+      ui_icons_sheet_x10_54: 1012068700747357318
+      ui_icons_sheet_x10_55: 7548275447837861880
+      ui_icons_sheet_x10_56: 7658362852273241104
+      ui_icons_sheet_x10_57: -3440768821499220855
+      ui_icons_sheet_x10_58: 5238974675989079092
+      ui_icons_sheet_x10_59: -7164747654333255254
+      ui_icons_sheet_x10_6: -3457231760844847964
+      ui_icons_sheet_x10_60: -6129729872966130188
+      ui_icons_sheet_x10_61: 3583792556135512876
+      ui_icons_sheet_x10_7: -5128909340475710060
+      ui_icons_sheet_x10_8: 4214533627272036288
+      ui_icons_sheet_x10_9: -4670675589082272906
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

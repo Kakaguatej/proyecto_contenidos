@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: a0907a1caca95ad4b98364146266c2b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6266893186812452400
+    second: laser_barrier_sheet_x10_0
+  - first:
+      213: -7248612387455329212
+    second: laser_barrier_sheet_x10_1
+  - first:
+      213: -2736267311799730498
+    second: laser_barrier_sheet_x10_2
+  - first:
+      213: -5853949702466384381
+    second: laser_barrier_sheet_x10_3
+  - first:
+      213: -3957200877101056058
+    second: laser_barrier_sheet_x10_4
+  - first:
+      213: 8481288060626942383
+    second: laser_barrier_sheet_x10_5
+  - first:
+      213: -4794034568880489773
+    second: laser_barrier_sheet_x10_6
+  - first:
+      213: -8495235032724417823
+    second: laser_barrier_sheet_x10_7
+  - first:
+      213: -7695130339827184377
+    second: laser_barrier_sheet_x10_8
+  - first:
+      213: -6592049109121073594
+    second: laser_barrier_sheet_x10_9
+  - first:
+      213: 2342347237437287998
+    second: laser_barrier_sheet_x10_10
+  - first:
+      213: -2447641616037235444
+    second: laser_barrier_sheet_x10_11
+  - first:
+      213: -3937564151968810727
+    second: laser_barrier_sheet_x10_12
+  - first:
+      213: 5358149953917071974
+    second: laser_barrier_sheet_x10_13
+  - first:
+      213: 7131744346991740786
+    second: laser_barrier_sheet_x10_14
+  - first:
+      213: -4968367567221014878
+    second: laser_barrier_sheet_x10_15
+  - first:
+      213: 8795879679287070979
+    second: laser_barrier_sheet_x10_16
+  - first:
+      213: -3860148951266633445
+    second: laser_barrier_sheet_x10_17
+  - first:
+      213: -1889370269959116544
+    second: laser_barrier_sheet_x10_18
+  - first:
+      213: -6416520402964495984
+    second: laser_barrier_sheet_x10_19
+  - first:
+      213: 3012528251493584122
+    second: laser_barrier_sheet_x10_20
+  - first:
+      213: -1965116898087008889
+    second: laser_barrier_sheet_x10_21
+  - first:
+      213: 9215650363663678317
+    second: laser_barrier_sheet_x10_22
+  - first:
+      213: -8392766785023911023
+    second: laser_barrier_sheet_x10_23
+  - first:
+      213: 3489127087243430702
+    second: laser_barrier_sheet_x10_24
+  - first:
+      213: -7251934910178397855
+    second: laser_barrier_sheet_x10_25
+  - first:
+      213: 7447978922550403867
+    second: laser_barrier_sheet_x10_26
+  - first:
+      213: -1123681288080333325
+    second: laser_barrier_sheet_x10_27
+  - first:
+      213: -7341681380814930940
+    second: laser_barrier_sheet_x10_28
+  - first:
+      213: 1744447544520834696
+    second: laser_barrier_sheet_x10_29
+  - first:
+      213: -8574732955972517931
+    second: laser_barrier_sheet_x10_30
+  - first:
+      213: -723847240721947768
+    second: laser_barrier_sheet_x10_31
+  - first:
+      213: 6681546727256478042
+    second: laser_barrier_sheet_x10_32
+  - first:
+      213: -7083412994071317085
+    second: laser_barrier_sheet_x10_33
+  - first:
+      213: -4189991895180919504
+    second: laser_barrier_sheet_x10_34
+  - first:
+      213: -2347012551872949589
+    second: laser_barrier_sheet_x10_35
+  - first:
+      213: -7660047464391647600
+    second: laser_barrier_sheet_x10_36
+  - first:
+      213: -3720266307658553650
+    second: laser_barrier_sheet_x10_37
+  - first:
+      213: 1704571840178350955
+    second: laser_barrier_sheet_x10_38
+  - first:
+      213: -9048857758667800694
+    second: laser_barrier_sheet_x10_39
+  - first:
+      213: -4934181994620397659
+    second: laser_barrier_sheet_x10_40
+  - first:
+      213: 12957926780989805
+    second: laser_barrier_sheet_x10_41
+  - first:
+      213: -4727308268079705466
+    second: laser_barrier_sheet_x10_42
+  - first:
+      213: -5922691046302201171
+    second: laser_barrier_sheet_x10_43
+  - first:
+      213: -2832818117914887539
+    second: laser_barrier_sheet_x10_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1257
+        width: 320
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d16aba99d58709a0800000000000000
+      internalID: -6266893186812452400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1257
+        width: 320
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c9a3b3071c76b90800000000000000
+      internalID: -7248612387455329212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1257
+        width: 320
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebef9a59063d60ad0800000000000000
+      internalID: -2736267311799730498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1257
+        width: 320
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ecc7bd2c792cea0800000000000000
+      internalID: -5853949702466384381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 961
+        width: 320
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cff687b4c23519c0800000000000000
+      internalID: -3957200877101056058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 961
+        width: 320
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa93e6b2e8693b570800000000000000
+      internalID: 8481288060626942383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 961
+        width: 320
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f550f7f84010018458a88eeb24916748
+      internalID: -4794034568880489773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 961
+        width: 320
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1493f0381ad54d42a7745187338168f
+      internalID: -8495235032724417823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 323
+        width: 320
+        height: 635
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22e68e503203e46add9dfe37d4509e
+      internalID: -7695130339827184377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 323
+        width: 320
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdb85ebcd5791b4cb29852577d14a05
+      internalID: -6592049109121073594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 323
+        width: 320
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed813256e1d7b0499d1c755c96bb452
+      internalID: 2342347237437287998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser_barrier_sheet_x10_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 323
+        width: 320
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f9a646b212a1b4288e31b01679b72b
+      internalID: -2447641616037235444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: adf9f5e1f8ca79248894c25eb732820b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":320.0,"y":400.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      laser_barrier_sheet_x10_0: -6266893186812452400
+      laser_barrier_sheet_x10_1: -7248612387455329212
+      laser_barrier_sheet_x10_10: 2342347237437287998
+      laser_barrier_sheet_x10_11: -2447641616037235444
+      laser_barrier_sheet_x10_12: -3937564151968810727
+      laser_barrier_sheet_x10_13: 5358149953917071974
+      laser_barrier_sheet_x10_14: 7131744346991740786
+      laser_barrier_sheet_x10_15: -4968367567221014878
+      laser_barrier_sheet_x10_2: -2736267311799730498
+      laser_barrier_sheet_x10_3: -5853949702466384381
+      laser_barrier_sheet_x10_4: -3957200877101056058
+      laser_barrier_sheet_x10_5: 8481288060626942383
+      laser_barrier_sheet_x10_6: -4794034568880489773
+      laser_barrier_sheet_x10_7: -8495235032724417823
+      laser_barrier_sheet_x10_8: -7695130339827184377
+      laser_barrier_sheet_x10_9: -6592049109121073594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

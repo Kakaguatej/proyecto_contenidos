@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 3b7c97da205a7364a933e49a892b1231
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8083064750037177281
+    second: socket_sheet_x10_0
+  - first:
+      213: 902000901639764053
+    second: socket_sheet_x10_1
+  - first:
+      213: -7681669337766599823
+    second: socket_sheet_x10_2
+  - first:
+      213: 1070949024953542058
+    second: socket_sheet_x10_3
+  - first:
+      213: 7408811813973046798
+    second: socket_sheet_x10_4
+  - first:
+      213: 4836870637338892597
+    second: socket_sheet_x10_5
+  - first:
+      213: 8136441069759673695
+    second: socket_sheet_x10_6
+  - first:
+      213: -5361895709794117432
+    second: socket_sheet_x10_7
+  - first:
+      213: -1858554833410788726
+    second: socket_sheet_x10_8
+  - first:
+      213: 2348846410931307442
+    second: socket_sheet_x10_9
+  - first:
+      213: -4013730000291188599
+    second: socket_sheet_x10_10
+  - first:
+      213: 5399510199715653362
+    second: socket_sheet_x10_11
+  - first:
+      213: -7573023493048998600
+    second: socket_sheet_x10_12
+  - first:
+      213: -8887322181093984525
+    second: socket_sheet_x10_13
+  - first:
+      213: 3143337747774373563
+    second: socket_sheet_x10_14
+  - first:
+      213: 3241593055913451236
+    second: socket_sheet_x10_15
+  - first:
+      213: -5631690189291522604
+    second: socket_sheet_x10_16
+  - first:
+      213: 3446119371528777707
+    second: socket_sheet_x10_17
+  - first:
+      213: -420724874958633013
+    second: socket_sheet_x10_18
+  - first:
+      213: 6007378120140721586
+    second: socket_sheet_x10_19
+  - first:
+      213: 191458184618730181
+    second: socket_sheet_x10_20
+  - first:
+      213: -8103569103676468310
+    second: socket_sheet_x10_21
+  - first:
+      213: -6571384312238715634
+    second: socket_sheet_x10_22
+  - first:
+      213: -1090053937650451270
+    second: socket_sheet_x10_23
+  - first:
+      213: 1995997378504982176
+    second: socket_sheet_x10_24
+  - first:
+      213: 1525106181921969241
+    second: socket_sheet_x10_25
+  - first:
+      213: 2016097907543880098
+    second: socket_sheet_x10_26
+  - first:
+      213: 2406966784576556743
+    second: socket_sheet_x10_27
+  - first:
+      213: 6698578573971080533
+    second: socket_sheet_x10_28
+  - first:
+      213: 2403158292949671452
+    second: socket_sheet_x10_29
+  - first:
+      213: 4347613156858624999
+    second: socket_sheet_x10_30
+  - first:
+      213: -2767176773405950682
+    second: socket_sheet_x10_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: socket_sheet_x10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c392727090dc2070800000000000000
+      internalID: 8083064750037177281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558f1518a0d848c00800000000000000
+      internalID: 902000901639764053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1736960cf6a356590800000000000000
+      internalID: -7681669337766599823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_3
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1920
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa528ecc676ccde00800000000000000
+      internalID: 1070949024953542058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480a362f1e8e08f4482ef28b572e4dca
+      internalID: 7408811813973046798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1280
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b5661de85178e499e8012956f5a459
+      internalID: 4836870637338892597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90860570f85793f4faafef1eb854a8d9
+      internalID: 8136441069759673695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_7
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1280
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fdfda61988c8441b0ef4468685bf7e
+      internalID: -5361895709794117432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5062c52f3b7caba4aa9e633247c584b9
+      internalID: -1858554833410788726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_9
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47acac29a8d41094982bbf70c5875171
+      internalID: 2348846410931307442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_10
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abf268c289c9ef4f8ff67dee6192b63
+      internalID: -4013730000291188599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_11
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 640
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855690b684ad9af44844b686d988fb5c
+      internalID: 5399510199715653362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61b367a16143f547aaa988911994171
+      internalID: -7573023493048998600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707a23c8ddc9c1d49af5c49050a78192
+      internalID: -8887322181093984525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a57e6c122e6874ea9614caf7293e52
+      internalID: 3143337747774373563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: socket_sheet_x10_15
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 960
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f38d74e3d22afb4caa6802a172168a0
+      internalID: 3241593055913451236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f328e835590c17a4c8af9081de68f01a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":960.0,"y":640.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      socket_sheet_x10_0: 8083064750037177281
+      socket_sheet_x10_1: 902000901639764053
+      socket_sheet_x10_10: -4013730000291188599
+      socket_sheet_x10_11: 5399510199715653362
+      socket_sheet_x10_12: -7573023493048998600
+      socket_sheet_x10_13: -8887322181093984525
+      socket_sheet_x10_14: 3143337747774373563
+      socket_sheet_x10_15: 3241593055913451236
+      socket_sheet_x10_2: -7681669337766599823
+      socket_sheet_x10_3: 1070949024953542058
+      socket_sheet_x10_4: 7408811813973046798
+      socket_sheet_x10_5: 4836870637338892597
+      socket_sheet_x10_6: 8136441069759673695
+      socket_sheet_x10_7: -5361895709794117432
+      socket_sheet_x10_8: -1858554833410788726
+      socket_sheet_x10_9: 2348846410931307442
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

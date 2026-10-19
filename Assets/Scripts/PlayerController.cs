@@ -8,15 +8,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpForce = 12f;
 
     [Header("Configuración de Dash")]
-    [SerializeField] private float dashSpeed = 38f;          // Velocidad del desplazamiento
-    [SerializeField] private float dashDuration = 0.28f;      // Duración del impulso
-    [SerializeField] private float dashCooldown = 0.8f;       // Tiempo de espera entre dashes
+    [SerializeField] private float dashSpeed = 38f;
+    [SerializeField] private float dashDuration = 0.28f;
+    [SerializeField] private float dashCooldown = 0.8f;
+    [SerializeField] private LayerMask capasADestruir; // Capas de Enemy y Proyectiles
     private bool canDash = true;
     public bool isDashing { get; private set; } = false;
 
     [Header("Efecto Visual de Dash")]
-    [SerializeField] private GameObject dashEffectPrefab;    // Prefab DashFX
-    [SerializeField] private Transform dashPoint;            // Punto DashPoint
+    [SerializeField] private GameObject dashEffectPrefab;
+    [SerializeField] private Transform dashPoint;
 
     [Header("Modificadores de Escudo")]
     [Range(0f, 1f)] [SerializeField] private float shieldSpeedMultiplier = 0.5f;
@@ -44,20 +45,25 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (isDashing) return;
+        if (isDashing)
+        {
+            // Barrido activo permanente mientras dura el Dash para no perder ningún impacto
+            EscanearYDestruirEnemigos();
+            return;
+        }
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
         if (moveInput > 0 && !facingRight) Flip();
         else if (moveInput < 0 && facingRight) Flip();
 
-        // SALTO: Exclusivo con W o Flecha Arriba
+        // Salto con W o Flecha Arriba
         if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
-        // DASH: Activación con LeftShift
+        // Dash con LeftShift
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && (playerShield == null || !playerShield.isShieldUp))
         {
             StartCoroutine(RealizarDash());
@@ -94,12 +100,6 @@ public class PlayerController : MonoBehaviour
         canDash = false;
         isDashing = true;
 
-        // 1. Convertir temporalmente el collider de El Bit en Trigger
-        // Esto elimina cualquier freno físico contra enemigos o proyectiles y le permite traspasarlos libremente
-        bool eraTrigger = playerCollider != null && playerCollider.isTrigger;
-        if (playerCollider != null) playerCollider.isTrigger = true;
-
-        // 2. Crear el efecto visual detrás de El Bit
         if (dashEffectPrefab != null)
         {
             Vector3 pos = (dashPoint != null) ? dashPoint.position : transform.position;
@@ -110,62 +110,65 @@ public class PlayerController : MonoBehaviour
             fx.transform.localScale = fxScale;
         }
 
-        // 3. Activar animación de Dash en Animator
         if (animator != null) animator.SetBool("isDashing", true);
 
-        // 4. Apagar gravedad temporal para un desplazamiento recto
         float gravedadOriginal = rb.gravityScale;
         rb.gravityScale = 0f;
 
-        // 5. Aplicar velocidad en la dirección hacia donde mira
         float direccion = facingRight ? 1f : -1f;
         rb.linearVelocity = new Vector2(direccion * dashSpeed, 0f);
 
+        // Limpieza inmediata en el punto de arranque
+        EscanearYDestruirEnemigos();
+
         yield return new WaitForSeconds(dashDuration);
 
-        // 6. Frenar y restaurar físicas normales
         rb.gravityScale = gravedadOriginal;
         rb.linearVelocity = Vector2.zero;
         isDashing = false;
 
-        // 7. Restaurar el collider al estado que tenía antes del Dash
-        if (playerCollider != null) playerCollider.isTrigger = eraTrigger;
-
         if (animator != null) animator.SetBool("isDashing", false);
 
-        // 8. Cooldown antes de poder usarlo de nuevo
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
 
-    // --- DETECCIÓN Y DESTRUCCIÓN TOTAL DURANTE EL DASH ---
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    // Barrido volumétrico frontal: detecta todo lo que esté en su caja de impacto cada frame
+    private void EscanearYDestruirEnemigos()
     {
-        ProcesarContactoDash(collision.gameObject);
+        Vector2 centro = playerCollider != null ? (Vector2)playerCollider.bounds.center : (Vector2)transform.position;
+        Vector2 tamano = playerCollider != null ? (Vector2)playerCollider.bounds.size * 1.3f : new Vector2(1.5f, 2f);
+
+        // Busca todos los colliders en el área del cuerpo expandida
+        Collider2D[] contactos = Physics2D.OverlapBoxAll(centro, tamano, 0f);
+
+        foreach (Collider2D col in contactos)
+        {
+            if (col.gameObject == gameObject) continue;
+
+            if (col.CompareTag("Enemy") || col.CompareTag("EnemyProjectile"))
+            {
+                Debug.Log($"¡Destrucción garantizada por Dash: {col.gameObject.name}!");
+                Destroy(col.gameObject);
+            }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        ProcesarContactoDash(collision.gameObject);
+        if (isDashing) ProcesarContacto(collision.gameObject);
     }
 
-    private void ProcesarContactoDash(GameObject objetivo)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (isDashing)
+        if (isDashing) ProcesarContacto(collision.gameObject);
+    }
+
+    private void ProcesarContacto(GameObject obj)
+    {
+        if (obj.CompareTag("Enemy") || obj.CompareTag("EnemyProjectile"))
         {
-            // Si el objeto tocado es un enemigo
-            if (objetivo.CompareTag("Enemy"))
-            {
-                Debug.Log($"¡Enemigo {objetivo.name} destruido con el Dash!");
-                Destroy(objetivo);
-            }
-            // Si el objeto tocado es un proyectil enemigo
-            else if (objetivo.CompareTag("EnemyProjectile"))
-            {
-                Debug.Log($"¡Proyectil {objetivo.name} destruido en el Dash!");
-                Destroy(objetivo);
-            }
+            Destroy(obj);
         }
     }
 
