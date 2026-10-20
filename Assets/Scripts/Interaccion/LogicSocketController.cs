@@ -4,9 +4,11 @@ public enum GateType { VACIO, AND, OR, NOT }
 
 public class LogicSocketController : MonoBehaviour
 {
-    [Header("1. Configuración de Aleatoriedad")]
+    [Header("1. Configuración de Aleatoriedad y Dificultad")]
     [Tooltip("Si está marcado, A y B se generan al azar al iniciar la partida")]
     public bool entradasAleatorias = true;
+    [Tooltip("Define cuánta temperatura baja al resolverlo (Easy 15%, Medium 25%, Hard 40%)")]
+    public PuzzleDifficulty dificultadPuzzle = PuzzleDifficulty.Easy;
 
     [Header("Valores de Entrada (Pistas A y B)")]
     public bool inputA = true;
@@ -47,13 +49,11 @@ public class LogicSocketController : MonoBehaviour
         if (cartelInteractuar != null) cartelInteractuar.SetActive(false);
         if (selectorChipsUI != null) selectorChipsUI.SetActive(false);
 
-        // Generar entradas aleatorias asegurando que el puzzle tenga solución
         if (entradasAleatorias)
         {
             GenerarEntradasValidas();
         }
 
-        // Configurar dibujos iniciales
         if (socketSR != null && spriteVacio != null) socketSR.sprite = spriteVacio;
         if (bitIndicatorSR != null && spriteBitCero != null) bitIndicatorSR.sprite = spriteBitCero;
 
@@ -64,13 +64,11 @@ public class LogicSocketController : MonoBehaviour
     {
         bool esValido = false;
 
-        // Bucle que busca una combinación que tenga solución con AND, OR o NOT
         while (!esValido)
         {
             inputA = Random.value > 0.5f;
             inputB = Random.value > 0.5f;
 
-            // Comprobamos si al menos una compuerta puede dar 'true' (1)
             bool puedeAND = inputA && inputB;
             bool puedeOR  = inputA || inputB;
             bool puedeNOT = !inputA;
@@ -94,7 +92,6 @@ public class LogicSocketController : MonoBehaviour
     {
         if (resuelto) return;
 
-        // Abrir / Cerrar el menú selector con E al estar cerca
         if (jugadorCerca && Input.GetKeyDown(KeyCode.E))
         {
             menuAbierto = !menuAbierto;
@@ -103,7 +100,6 @@ public class LogicSocketController : MonoBehaviour
         }
     }
 
-    // Llamado por ChipClickable.cs al hacer clic con el ratón
     public void SeleccionarChipConMouse(GateType tipo)
     {
         if (!menuAbierto || resuelto) return;
@@ -141,7 +137,6 @@ public class LogicSocketController : MonoBehaviour
     {
         bool salidaCalculada = false;
 
-        // Evaluación lógica booleana real
         switch (compuertaInstalada)
         {
             case GateType.AND:
@@ -158,20 +153,24 @@ public class LogicSocketController : MonoBehaviour
                 break;
         }
 
-        // Actualizar el número [0] o [1] en la salida
         if (bitIndicatorSR != null)
         {
             bitIndicatorSR.sprite = salidaCalculada ? spriteBitUno : spriteBitCero;
         }
 
-        // Si la salida generada es 1, se apaga el láser
         if (salidaCalculada == salidaRequeridaParaApagar)
         {
             ResolverPuzzle();
         }
         else
         {
-            Debug.Log($"Salida calculada: {salidaCalculada}. Láser continúa activo.");
+            // CONEXIÓN GAMESTATE: Falló el puzzle -> Sube +6°C de temperatura
+            if (GameState.Instance != null)
+            {
+                GameState.Instance.OnPuzzleResult(false, dificultadPuzzle);
+            }
+
+            Debug.Log($"Salida calculada: {salidaCalculada}. Láser continúa activo (+6°C).");
             if (cartelInteractuar != null) cartelInteractuar.SetActive(true);
         }
     }
@@ -179,7 +178,14 @@ public class LogicSocketController : MonoBehaviour
     private void ResolverPuzzle()
     {
         resuelto = true;
-        Debug.Log("¡Circuito resuelto! Salida en 1. Láser apagado.");
+
+        // CONEXIÓN GAMESTATE: Completó el puzzle -> Enfría la placa según dificultad
+        if (GameState.Instance != null)
+        {
+            GameState.Instance.OnPuzzleResult(true, dificultadPuzzle);
+        }
+
+        Debug.Log("¡Circuito resuelto! Salida en 1. Láser apagado y temperatura reducida.");
 
         if (laserBarrera != null) laserBarrera.SetActive(false);
         if (cartelInteractuar != null) cartelInteractuar.SetActive(false);

@@ -8,8 +8,9 @@ public class ProyectilEnemigo : MonoBehaviour
     public string tagPared = "Floor";
     public string tagEscudo = "Shield";
 
-    [Header("Tipo de Daño")]
-    public bool esCritico = false; 
+    [Header("Daño al Jugador (GameState)")]
+    public float danoBase = 10f;
+    public bool esCritico = false;
 
     private int direccion = 1;
 
@@ -39,7 +40,6 @@ public class ProyectilEnemigo : MonoBehaviour
 
             if (escudo != null && escudo.isShieldUp)
             {
-                Debug.Log("¡Proyectil bloqueado por el escudo!");
                 escudo.OnHit(esCritico);
                 Destroy(gameObject);
                 return;
@@ -49,8 +49,18 @@ public class ProyectilEnemigo : MonoBehaviour
         // 2. SI CHOCA CONTRA EL JUGADOR (Sin escudo)
         if (otro.CompareTag("Player"))
         {
-            Debug.Log("¡Impacto directo a El Bit!");
-            // Destruye la bala al impactar directamente
+            PlayerController pc = otro.GetComponent<PlayerController>();
+            // Si el jugador está en medio de un Dash, el Dash destruye la bala sin hacerle daño
+            if (pc != null && pc.isDashing)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
+            if (GameState.Instance != null)
+            {
+                GameState.Instance.DamagePlayer(danoBase);
+            }
             Destroy(gameObject);
         }
         // 3. SI CHOCA CONTRA EL SUELO O PARED

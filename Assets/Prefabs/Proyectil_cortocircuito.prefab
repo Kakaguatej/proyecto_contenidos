@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -6430734611945255798}
   m_Layer: 0
   m_Name: Proyectil_cortocircuito
-  m_TagString: Undefined
+  m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,6 +112,7 @@ MonoBehaviour:
   tiempoDeVida: 3
   tagPared: Floor
   tagEscudo: Shield
+  danoBase: 10
   esCritico: 0
 --- !u!61 &5572192361290775603
 BoxCollider2D:

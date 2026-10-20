@@ -16,14 +16,19 @@ public class Enemigo : MonoBehaviour
     public float tiempoEntreDisparos = 1.5f;
     
     [Header("3. Animaciones")]
-    public string nombreTriggerAtaque = "Atacar"; // El nombre del parámetro en el Animator
-    public string nombreEstadoDisparo = "Disparo"; // El nombre EXACTO del bloque de animación de disparo
+    public string nombreTriggerAtaque = "Atacar";
+    public string nombreEstadoDisparo = "Disparo";
+
+    [Header("4. Tipo de Enemigo y Daño (GameState)")]
+    public EnemyType tipoEnemigo = EnemyType.OvercurrentOven;
+    public float danoContactoBase = 8f;
 
     private Rigidbody2D rb;
     private Animator anim;
     private Transform player;
     private int direccion = 1; 
     private float cronometroDisparo;
+    private bool yaMurio = false;
 
     void Start()
     {
@@ -61,14 +66,12 @@ public class Enemigo : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Verifica si se está reproduciendo actualmente la animación de disparo
         bool estaDisparando = false;
         if (anim != null)
         {
             estaDisparando = anim.GetCurrentAnimatorStateInfo(0).IsName(nombreEstadoDisparo);
         }
 
-        // Si está disparando, se queda quieto. Si no, sigue patrullando.
         if (estaDisparando)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
@@ -76,6 +79,33 @@ public class Enemigo : MonoBehaviour
         else
         {
             rb.linearVelocity = new Vector2(direccion * velocidad, rb.linearVelocity.y);
+        }
+    }
+
+    // Llamado por PlayerController cuando El Bit lo destruye con Dash
+    public void MorirPorDash()
+    {
+        if (yaMurio) return;
+        yaMurio = true;
+
+        if (GameState.Instance != null)
+        {
+            GameState.Instance.OnEnemyKilled(tipoEnemigo);
+        }
+
+        Destroy(gameObject);
+    }
+
+    // Si El Bit toca al enemigo SIN estar haciendo Dash, recibe daño de contacto
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
+            if (pc != null && !pc.isDashing && GameState.Instance != null)
+            {
+                GameState.Instance.DamagePlayer(danoContactoBase);
+            }
         }
     }
 
@@ -114,13 +144,11 @@ public class Enemigo : MonoBehaviour
 
     void Disparar()
     {
-        // 1. Lanza la animación
         if (anim != null)
         {
             anim.SetTrigger(nombreTriggerAtaque);
         }
 
-        // 2. Crea el proyectil
         if (prefabProyectil != null)
         {
             GameObject proyectil = Instantiate(prefabProyectil, puntoDisparo.position, Quaternion.identity);

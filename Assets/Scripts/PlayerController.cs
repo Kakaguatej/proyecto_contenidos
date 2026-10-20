@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement; // Necesario para volver a la escena del MainMenu
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float dashSpeed = 38f;
     [SerializeField] private float dashDuration = 0.28f;
     [SerializeField] private float dashCooldown = 0.8f;
-    [SerializeField] private LayerMask capasADestruir; // Capas de Enemy y Proyectiles
+    [SerializeField] private LayerMask capasADestruir;
     private bool canDash = true;
     public bool isDashing { get; private set; } = false;
 
@@ -22,6 +23,19 @@ public class PlayerController : MonoBehaviour
     [Header("Modificadores de Escudo")]
     [Range(0f, 1f)] [SerializeField] private float shieldSpeedMultiplier = 0.5f;
 
+    [Header("Detección de Suelo")]
+    public Transform groundCheck;
+    public float groundRadius = 0.2f;
+    public LayerMask groundLayer;
+
+    [Header("Muerte y Cambio de Escena")]
+    [Tooltip("Nombre del parámetro Trigger en el Animator para la animación de muerte")]
+    [SerializeField] private string deathTriggerName = "Die";
+    [Tooltip("Segundos que espera viendo la animación de muerte antes de ir al menú")]
+    [SerializeField] private float delayBeforeMenu = 2.0f;
+    [Tooltip("Nombre EXACTO de tu escena de menú o hub en la carpeta Scenes")]
+    [SerializeField] private string mainMenuSceneName = "MainMenu";
+
     private Rigidbody2D rb;
     private Animator animator;
     private Collider2D playerCollider;
@@ -29,11 +43,7 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
     private bool facingRight = true;
     private bool isGrounded;
-
-    [Header("Detección de Suelo")]
-    public Transform groundCheck;
-    public float groundRadius = 0.2f;
-    public LayerMask groundLayer;
+    private bool deathSequenceStarted = false;
 
     private void Awake()
     {
@@ -43,11 +53,33 @@ public class PlayerController : MonoBehaviour
         playerShield = GetComponentInChildren<PlayerShield>();
     }
 
+    private void Start()
+    {
+        // Se suscribe al evento de muerte del GameState
+        if (GameState.Instance != null)
+        {
+            GameState.Instance.OnPlayerDied += HandlePlayerDied;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (GameState.Instance != null)
+        {
+            GameState.Instance.OnPlayerDied -= HandlePlayerDied;
+        }
+    }
+
     private void Update()
     {
+        // Si ya murió, bloquea cualquier tecla o movimiento
+        if (deathSequenceStarted || (GameState.Instance != null && GameState.Instance.IsPlayerDead))
+        {
+            return;
+        }
+
         if (isDashing)
         {
-            // Barrido activo permanente mientras dura el Dash para no perder ningún impacto
             EscanearYDestruirEnemigos();
             return;
         }
@@ -57,13 +89,11 @@ public class PlayerController : MonoBehaviour
         if (moveInput > 0 && !facingRight) Flip();
         else if (moveInput < 0 && facingRight) Flip();
 
-        // Salto con W o Flecha Arriba
         if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
-        // Dash con LeftShift
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && (playerShield == null || !playerShield.isShieldUp))
         {
             StartCoroutine(RealizarDash());
@@ -79,6 +109,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (deathSequenceStarted || (GameState.Instance != null && GameState.Instance.IsPlayerDead)) return;
         if (isDashing) return;
 
         float currentSpeed = moveSpeed;
@@ -95,10 +126,50 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Se ejecuta automáticamente cuando GameState anuncia que la vida llegó a 0 o el Formateo al 100%
+    private void HandlePlayerDied(DeathReason reason)
+    {
+        if (deathSequenceStarted) return;
+        deathSequenceStarted = true;
+
+        StartCoroutine(SecuenciaDeMuerte());
+    }
+
+    private IEnumerator SecuenciaDeMuerte()
+    {
+        // 1. Si estaba haciendo Dash o con el escudo, lo cancelamos y frenamos a El Bit
+        isDashing = false;
+        if (playerShield != null && playerShield.isShieldUp)
+        {
+            playerShield.DeactivateShield();
+        }
+
+        rb.linearVelocity = Vector2.zero;
+
+        // 2. Lanzar la animación de muerte en el Animator
+        if (animator != null && !string.IsNullOrEmpty(deathTriggerName))
+        {
+            animator.SetBool("isDashing", false);
+            animator.SetFloat("Speed", 0f);
+            animator.SetTrigger(deathTriggerName);
+        }
+
+        // 3. Esperar a que termine de verse la animación de muerte
+        yield return new WaitForSeconds(delayBeforeMenu);
+
+        // 4. Cargar la escena del MainMenu / Hub
+        SceneManager.LoadScene(mainMenuSceneName);
+    }
+
     private IEnumerator RealizarDash()
     {
         canDash = false;
         isDashing = true;
+
+        if (GameState.Instance != null)
+        {
+            GameState.Instance.OnPlayerDashed();
+        }
 
         if (dashEffectPrefab != null)
         {
@@ -118,7 +189,6 @@ public class PlayerController : MonoBehaviour
         float direccion = facingRight ? 1f : -1f;
         rb.linearVelocity = new Vector2(direccion * dashSpeed, 0f);
 
-        // Limpieza inmediata en el punto de arranque
         EscanearYDestruirEnemigos();
 
         yield return new WaitForSeconds(dashDuration);
@@ -133,24 +203,17 @@ public class PlayerController : MonoBehaviour
         canDash = true;
     }
 
-    // Barrido volumétrico frontal: detecta todo lo que esté en su caja de impacto cada frame
     private void EscanearYDestruirEnemigos()
     {
         Vector2 centro = playerCollider != null ? (Vector2)playerCollider.bounds.center : (Vector2)transform.position;
         Vector2 tamano = playerCollider != null ? (Vector2)playerCollider.bounds.size * 1.3f : new Vector2(1.5f, 2f);
 
-        // Busca todos los colliders en el área del cuerpo expandida
         Collider2D[] contactos = Physics2D.OverlapBoxAll(centro, tamano, 0f);
 
         foreach (Collider2D col in contactos)
         {
             if (col.gameObject == gameObject) continue;
-
-            if (col.CompareTag("Enemy") || col.CompareTag("EnemyProjectile"))
-            {
-                Debug.Log($"¡Destrucción garantizada por Dash: {col.gameObject.name}!");
-                Destroy(col.gameObject);
-            }
+            ProcesarContacto(col.gameObject);
         }
     }
 
@@ -166,7 +229,19 @@ public class PlayerController : MonoBehaviour
 
     private void ProcesarContacto(GameObject obj)
     {
-        if (obj.CompareTag("Enemy") || obj.CompareTag("EnemyProjectile"))
+        if (obj.CompareTag("Enemy"))
+        {
+            Enemigo scriptEnemigo = obj.GetComponent<Enemigo>();
+            if (scriptEnemigo != null)
+            {
+                scriptEnemigo.MorirPorDash();
+            }
+            else
+            {
+                Destroy(obj);
+            }
+        }
+        else if (obj.CompareTag("EnemyProjectile"))
         {
             Destroy(obj);
         }

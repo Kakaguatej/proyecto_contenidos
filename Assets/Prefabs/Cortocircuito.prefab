@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 156334611072215889}
   m_Layer: 0
   m_Name: Cortocircuito
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ Animator:
   m_GameObject: {fileID: 5371839461249279263}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 87fc3094fbe369a418ea7564ce740158, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0ff7acf59cd03ac429666ab2261a0c9f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemigo
   velocidad: 2
-  detectorPared: {fileID: 0}
+  detectorPared: {fileID: 2870578822114868210}
   distanciaPared: 0.8
   tagPared: Floor
   puntoDisparo: {fileID: 0}
@@ -204,6 +204,10 @@ MonoBehaviour:
   distanciaDeteccion: 20
   margenAltura: 1.5
   tiempoEntreDisparos: 2
+  nombreTriggerAtaque: Atacar
+  nombreEstadoDisparo: Disparo
+  tipoEnemigo: 1
+  danoContactoBase: 8
 --- !u!1 &8337528574544730398
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +233,7 @@ Transform:
   m_GameObject: {fileID: 8337528574544730398}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4, y: -0.555, z: 0}
+  m_LocalPosition: {x: 0.381, y: -0.53, z: 0}
   m_LocalScale: {x: 0.9625, y: 7.66345, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
