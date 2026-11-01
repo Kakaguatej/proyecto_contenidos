@@ -38,8 +38,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  healOnOvenKilled: 4
-  healOnShortCircuitKilled: 3
+  healOnOvenKilled: 15
+  healOnShortCircuitKilled: 10
   healthWarnThreshold: 0.5
   healthCritThreshold: 0.25
   formatDurationSeconds: 600
@@ -57,7 +57,7 @@ MonoBehaviour:
   minVoltage: 0
   maxVoltage: 12
   initialVoltage: 0
-  voltageAddedPerDash: 0.8
+  voltageAddedPerDash: 1.5
   voltageCooldownDelay: 3
   voltageDecayPerSecond: 0.4
   voltageLowThreshold: 3
