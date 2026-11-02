@@ -16,6 +16,8 @@ public class ChipClickable : MonoBehaviour
     // Se ejecuta automáticamente al hacer clic sobre el Collider2D de este objeto
     private void OnMouseDown()
     {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayChipClick();
+
         if (socketPadre != null)
         {
             socketPadre.SeleccionarChipConMouse(tipoDeChip);

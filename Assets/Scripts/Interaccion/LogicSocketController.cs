@@ -90,6 +90,8 @@ public class LogicSocketController : MonoBehaviour
 
     private void Update()
     {
+        if (Time.timeScale == 0f) return;
+
         if (resuelto) return;
 
         if (jugadorCerca && Input.GetKeyDown(KeyCode.E))

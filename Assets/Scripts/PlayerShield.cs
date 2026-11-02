@@ -47,6 +47,8 @@ public class PlayerShield : MonoBehaviour
 
     public void OnHit(bool isCritical)
     {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayShieldHit();
+
         if (anim == null) return;
 
         if (isCritical)
@@ -59,6 +61,9 @@ public class PlayerShield : MonoBehaviour
         }
     }
 
+    // NOTA: handler desactivado a propósito para evitar el doble procesamiento del impacto.
+    // ProyectilEnemigo.OnTriggerEnter2D ya llama a OnHit() y destruye el proyectil.
+    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Detecta proyectiles enemigos para bloquearlos
@@ -69,4 +74,5 @@ public class PlayerShield : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+    */
 }

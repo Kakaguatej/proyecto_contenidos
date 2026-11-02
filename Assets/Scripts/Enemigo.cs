@@ -144,6 +144,8 @@ public class Enemigo : MonoBehaviour
 
     void Disparar()
     {
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayEnemyShot();
+
         if (anim != null)
         {
             anim.SetTrigger(nombreTriggerAtaque);

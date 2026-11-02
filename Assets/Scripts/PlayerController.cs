@@ -44,6 +44,8 @@ public class PlayerController : MonoBehaviour
     private bool facingRight = true;
     private bool isGrounded;
     private bool deathSequenceStarted = false;
+    private float lastHealth = -1f;
+    private static readonly int HitHash = Animator.StringToHash("Hit");
 
     private void Awake()
     {
@@ -55,10 +57,12 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        // Se suscribe al evento de muerte del GameState
+        // Se suscribe a los eventos del GameState
         if (GameState.Instance != null)
         {
             GameState.Instance.OnPlayerDied += HandlePlayerDied;
+            GameState.Instance.OnHealthChanged += HandleHealthChanged;
+            lastHealth = GameState.Instance.CurrentHealth;
         }
     }
 
@@ -67,8 +71,26 @@ public class PlayerController : MonoBehaviour
         if (GameState.Instance != null)
         {
             GameState.Instance.OnPlayerDied -= HandlePlayerDied;
+            GameState.Instance.OnHealthChanged -= HandleHealthChanged;
         }
     }
+
+    private void HandleHealthChanged(float current, float max)
+    {
+        if (lastHealth < 0f)
+        {
+            lastHealth = current;
+            return;
+        }
+
+        if (current < lastHealth - 0.01f && animator != null)
+        {
+            animator.SetTrigger(HitHash);
+        }
+
+        lastHealth = current;
+    }
+
 
     private void Update()
     {
@@ -92,6 +114,7 @@ public class PlayerController : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            if (AudioManager.Instance != null) AudioManager.Instance.PlayJump();
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && (playerShield == null || !playerShield.isShieldUp))
@@ -165,6 +188,8 @@ public class PlayerController : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
+        if (AudioManager.Instance != null) AudioManager.Instance.PlayDash();
+
 
         if (GameState.Instance != null)
         {
